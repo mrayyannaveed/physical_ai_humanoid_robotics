@@ -1,0 +1,27 @@
+{
+  "unversionedId": "chapter-5/system-integration-and-ros",
+  "id": "chapter-5/system-integration-and-ros",
+  "title": "System Integration and ROS 2",
+  "description": "Integrating the myriad hardware and software components of a humanoid robot is a complex undertaking. The Robot Operating System (ROS), particularly its second generation (ROS 2), provides a powerful, flexible, and standardized framework for managing this complexity.",
+  "source": "@site/docs/chapter-5/01-system-integration-and-ros.md",
+  "sourceDirName": "chapter-5",
+  "slug": "/chapter-5/system-integration-and-ros",
+  "permalink": "/docs/chapter-5/system-integration-and-ros",
+  "draft": false,
+  "editUrl": "https://github.com/your-org/physical-ai-book/tree/main/docs/chapter-5/01-system-integration-and-ros.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Reinforcement Learning and Sim-to-Real",
+    "permalink": "/docs/chapter-4/reinforcement-learning-and-sim-to-real"
+  },
+  "next": {
+    "title": "Testing and Validation",
+    "permalink": "/docs/chapter-5/testing-and-validation"
+  }
+}

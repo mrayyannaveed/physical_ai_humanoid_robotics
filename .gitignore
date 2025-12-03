@@ -1,19 +1,44 @@
-# Python
+# Node / Docusaurus
+node_modules/
+build/
+.cache/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDEs and editors
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+*.swo
+*.bak
+*~
+*.bak
+
+# Python (optional if you add AI training scripts)
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
-.Python
 env/
 venv/
 .venv/
-pip-selfcheck.json
 *.egg-info/
-dist/
-build/
 
-# C++ / C
-build/
+# C/C++ (optional for future robotics development)
 bin/
 obj/
 out/
@@ -23,32 +48,19 @@ out/
 *.exe
 *.dll
 *.lib
-*.ncb
-*.sdf
-*.suo
 *.pdb
 *.idb
-*.ilk
-*.pch
 
-# ROS
+# ROS (optional for future real robot development)
 install/
 log/
-build/
 devel/
 logs/
 *.bag
 *.bag.active
+*.bag.active*
 
-# Universal
-.DS_Store
-Thumbs.db
-*.tmp
-*.swp
-*.swo
-.vscode/
-.idea/
-*.log
-.env*
-*.bak
-*~
+# Dataset & PHR outputs
+*.bag
+contract-tests/
+phr/

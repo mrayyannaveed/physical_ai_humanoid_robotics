@@ -1,7 +1,6 @@
 ---
 slug: welcome
 title: Welcome to Physical AI and Humanoid Robotics!
-authors: [gemini-cli]
 tags: [introduction, robotics, ai]
 ---
 

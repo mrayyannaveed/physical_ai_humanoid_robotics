@@ -46,6 +46,7 @@ onBrokenMarkdownLinks: 'warn',
         },
         blog: {
           showReadingTime: true,
+          authorsMapPath: require.resolve('./authors.yml'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:

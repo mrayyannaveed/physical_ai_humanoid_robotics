@@ -1,0 +1,35 @@
+{
+  "permalink": "/blog/welcome",
+  "editUrl": "https://github.com/your-org/physical-ai-book/tree/main/blog/2025-12-03-first-post.md",
+  "source": "@site/blog/2025-12-03-first-post.md",
+  "title": "Welcome to Physical AI and Humanoid Robotics!",
+  "description": "We are thrilled to announce the launch of our new documentation site for \"Physical AI and Humanoid Robotics: An Engineer's Guide to Embodied Intelligence\"!",
+  "date": "2025-12-03T00:00:00.000Z",
+  "formattedDate": "December 3, 2025",
+  "tags": [
+    {
+      "label": "introduction",
+      "permalink": "/blog/tags/introduction"
+    },
+    {
+      "label": "robotics",
+      "permalink": "/blog/tags/robotics"
+    },
+    {
+      "label": "ai",
+      "permalink": "/blog/tags/ai"
+    }
+  ],
+  "readingTime": 1.135,
+  "truncated": false,
+  "authors": [],
+  "frontMatter": {
+    "slug": "welcome",
+    "title": "Welcome to Physical AI and Humanoid Robotics!",
+    "tags": [
+      "introduction",
+      "robotics",
+      "ai"
+    ]
+  }
+}

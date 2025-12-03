@@ -1,0 +1,27 @@
+{
+  "unversionedId": "chapter-3/computer-vision-for-robotics",
+  "id": "chapter-3/computer-vision-for-robotics",
+  "title": "Computer Vision for Robotics",
+  "description": "Computer Vision (CV) is arguably the most critical exteroceptive sensing modality for humanoid robots, providing rich information about the environment. Unlike general-purpose CV, robotics CV focuses heavily on real-time performance, 3D understanding, and direct applicability to manipulation and navigation tasks.",
+  "source": "@site/docs/chapter-3/02-computer-vision-for-robotics.md",
+  "sourceDirName": "chapter-3",
+  "slug": "/chapter-3/computer-vision-for-robotics",
+  "permalink": "/docs/chapter-3/computer-vision-for-robotics",
+  "draft": false,
+  "editUrl": "https://github.com/your-org/physical-ai-book/tree/main/docs/chapter-3/02-computer-vision-for-robotics.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sensor Fusion Techniques",
+    "permalink": "/docs/chapter-3/sensor-fusion"
+  },
+  "next": {
+    "title": "Semantic World Modeling",
+    "permalink": "/docs/chapter-3/semantic-world-modeling"
+  }
+}

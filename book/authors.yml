@@ -1,0 +1,5 @@
+gemini-cli:
+  name: Gemini CLI
+  title: AI Assistant
+  url: https://gemini.google.com/
+  image_url: https://developers.google.com/static/events/gemini/images/logo_gemini.svg

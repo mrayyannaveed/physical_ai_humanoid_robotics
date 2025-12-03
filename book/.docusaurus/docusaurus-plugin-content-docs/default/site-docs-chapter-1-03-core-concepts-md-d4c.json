@@ -1,0 +1,27 @@
+{
+  "unversionedId": "chapter-1/core-concepts",
+  "id": "chapter-1/core-concepts",
+  "title": "Core Concepts of Embodied Intelligence",
+  "description": "Embodied intelligence is built on a set of foundational principles that distinguish it from traditional AI. These concepts are not independent but are deeply interconnected, forming the basis for how a physical agent learns and operates.",
+  "source": "@site/docs/chapter-1/03-core-concepts.md",
+  "sourceDirName": "chapter-1",
+  "slug": "/chapter-1/core-concepts",
+  "permalink": "/docs/chapter-1/core-concepts",
+  "draft": false,
+  "editUrl": "https://github.com/your-org/physical-ai-book/tree/main/docs/chapter-1/03-core-concepts.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "History and Evolution of Humanoid Robotics",
+    "permalink": "/docs/chapter-1/history-and-evolution"
+  },
+  "next": {
+    "title": "Mechanical Design and Materials",
+    "permalink": "/docs/chapter-2/mechanical-design-and-materials"
+  }
+}

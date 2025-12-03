@@ -1,0 +1,27 @@
+{
+  "unversionedId": "chapter-4/reinforcement-learning-and-sim-to-real",
+  "id": "chapter-4/reinforcement-learning-and-sim-to-real",
+  "title": "Reinforcement Learning and Sim-to-Real",
+  "description": "Reinforcement Learning (RL) has emerged as a powerful paradigm for teaching complex behaviors to humanoid robots, particularly for tasks that are difficult to program explicitly. However, applying RL to physical robots is challenging, leading to the development of \"sim-to-real\" techniques.",
+  "source": "@site/docs/chapter-4/03-reinforcement-learning-and-sim-to-real.md",
+  "sourceDirName": "chapter-4",
+  "slug": "/chapter-4/reinforcement-learning-and-sim-to-real",
+  "permalink": "/docs/chapter-4/reinforcement-learning-and-sim-to-real",
+  "draft": false,
+  "editUrl": "https://github.com/your-org/physical-ai-book/tree/main/docs/chapter-4/03-reinforcement-learning-and-sim-to-real.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Advanced Control Systems",
+    "permalink": "/docs/chapter-4/advanced-control-systems"
+  },
+  "next": {
+    "title": "System Integration and ROS 2",
+    "permalink": "/docs/chapter-5/system-integration-and-ros"
+  }
+}

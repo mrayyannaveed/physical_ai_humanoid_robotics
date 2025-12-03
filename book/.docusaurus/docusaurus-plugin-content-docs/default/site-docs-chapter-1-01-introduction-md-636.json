@@ -1,0 +1,27 @@
+{
+  "unversionedId": "chapter-1/introduction",
+  "id": "chapter-1/introduction",
+  "title": "Introduction to Physical AI",
+  "description": "What is Physical AI?",
+  "source": "@site/docs/chapter-1/01-introduction.md",
+  "sourceDirName": "chapter-1",
+  "slug": "/chapter-1/introduction",
+  "permalink": "/docs/chapter-1/introduction",
+  "draft": false,
+  "editUrl": "https://github.com/your-org/physical-ai-book/tree/main/docs/chapter-1/01-introduction.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Table of Contents",
+    "permalink": "/docs/"
+  },
+  "next": {
+    "title": "History and Evolution of Humanoid Robotics",
+    "permalink": "/docs/chapter-1/history-and-evolution"
+  }
+}

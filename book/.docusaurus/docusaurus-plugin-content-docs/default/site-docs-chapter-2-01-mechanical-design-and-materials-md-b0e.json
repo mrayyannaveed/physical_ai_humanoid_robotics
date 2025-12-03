@@ -1,0 +1,27 @@
+{
+  "unversionedId": "chapter-2/mechanical-design-and-materials",
+  "id": "chapter-2/mechanical-design-and-materials",
+  "title": "Mechanical Design and Materials",
+  "description": "The mechanical design of a humanoid robot is a study in trade-offs. The structure must be strong enough to withstand dynamic forces, yet lightweight enough for efficient locomotion. It must be complex enough to house a vast network of actuators, sensors, and electronics, yet simple enough to be manufactured and maintained at a reasonable cost.",
+  "source": "@site/docs/chapter-2/01-mechanical-design-and-materials.md",
+  "sourceDirName": "chapter-2",
+  "slug": "/chapter-2/mechanical-design-and-materials",
+  "permalink": "/docs/chapter-2/mechanical-design-and-materials",
+  "draft": false,
+  "editUrl": "https://github.com/your-org/physical-ai-book/tree/main/docs/chapter-2/01-mechanical-design-and-materials.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Core Concepts of Embodied Intelligence",
+    "permalink": "/docs/chapter-1/core-concepts"
+  },
+  "next": {
+    "title": "Kinematics and Dynamics",
+    "permalink": "/docs/chapter-2/kinematics-and-dynamics"
+  }
+}
