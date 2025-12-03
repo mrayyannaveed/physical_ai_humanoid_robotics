@@ -31,7 +31,11 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- [ ] **I. Co-designed Motion and Intelligence**: Does the plan account for the co-development of physical and cognitive aspects?
+- [ ] **II. Continuous Perception-Action Loops**: Does the design ensure real-time adaptation based on environmental feedback?
+- [ ] **III. Inherent Safety Boundaries**: Are the safety constraints clearly defined and enforced in the architecture?
+- [ ] **IV. Human & Ethical Alignment**: Does the feature align with human values and ethical principles?
+- [ ] **V. Observable Safe Failure**: Does the plan include mechanisms for safe failure states and observability?
 
 ## Project Structure
 

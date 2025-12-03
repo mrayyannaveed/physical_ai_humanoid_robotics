@@ -1,55 +1,51 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+- Version change: 0.0.0 -> 1.0.0
+- Added sections:
+  - Core Principles
+  - Core Pillars
+  - Key Foundational Details
+  - Governance
+- Templates requiring updates:
+  - ✅ .specify/templates/plan-template.md
+  - ❔ .specify/templates/spec-template.md (No changes needed)
+  - ❔ .specify/templates/tasks-template.md (No changes needed)
+-->
+# Physical AI & humanoid robotics Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Co-designed Motion and Intelligence
+Motion and intelligence must be co-designed, not isolated. The physical and cognitive aspects of the robot are deeply intertwined and must be developed in a unified manner.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Continuous Perception-Action Loops
+Perception loops must influence action continuously. The robot must constantly perceive its environment and adapt its actions in real-time based on new information.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Inherent Safety Boundaries
+All autonomy must include safety boundaries. Every autonomous action or decision must operate within a predefined set of safety constraints that cannot be overridden.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Human & Ethical Alignment
+Human compatibility and ethical alignment are mandatory. The robot's goals, behaviors, and decision-making processes must be aligned with human values and ethical principles.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Observable Safe Failure
+Robots must fail safely and be observable. In the event of a failure, the robot must default to a safe state, and its internal states and decision-making processes must be accessible for analysis.
 
-### [PRINCIPLE_6_NAME]
+## Core Pillars
 
+This section defines the foundational pillars of the project.
+- **Physics-aware AI**: AI models and algorithms must be grounded in the principles of physics to ensure realistic and safe interactions with the physical world.
+- **Embodiment**: The physical form of the robot is central to its intelligence and capabilities.
+- **Human-centric Safety**: Safety is not just a feature but the core design principle, with a focus on human-well-being.
 
-[PRINCIPLE__DESCRIPTION]
+## Key Foundational Details
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
-
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+This section outlines key influences, mindsets, and metrics for the.
+- **Influence Roots**: Inspired by early robot governing laws introduced conceptually by Isaac Asimov.
+- **Modern Safety Mindset**: Aligned with AI safety research principles from labs like OpenAI.
+- **Success Metrics**: Success is measured by safety-first autonomy, real-time learning capabilities, and a scalable architecture.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This constitution supersedes all other practices. Amendments require documentation, formal approval, and a clear migration plan. All pull requests and reviews must verify compliance with this constitution.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-02 | **Last Amended**: 2025-12-02

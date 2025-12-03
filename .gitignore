@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-selfcheck.json
+*.egg-info/
+dist/
+build/
+
+# C++ / C
+build/
+bin/
+obj/
+out/
+*.o
+*.so
+*.a
+*.exe
+*.dll
+*.lib
+*.ncb
+*.sdf
+*.suo
+*.pdb
+*.idb
+*.ilk
+*.pch
+
+# ROS
+install/
+log/
+build/
+devel/
+logs/
+*.bag
+*.bag.active
+
+# Universal
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+*.swo
+.vscode/
+.idea/
+*.log
+.env*
+*.bak
+*~
