@@ -38,6 +38,11 @@ export default [
     exact: true
   },
   {
+    path: '/auth',
+    component: ComponentCreator('/auth', 'bcb'),
+    exact: true
+  },
+  {
     path: '/blog',
     component: ComponentCreator('/blog', '721'),
     exact: true

@@ -1,4 +1,5 @@
 export default {
+  '__comp---site-src-pages-auth-js-755-117': [() => import(/* webpackChunkName: '__comp---site-src-pages-auth-js-755-117' */ '@site/src/pages/auth.js'), '@site/src/pages/auth.js', require.resolveWeak('@site/src/pages/auth.js')],
   '__comp---site-src-pages-index-jsc-4-f-f99': [() => import(/* webpackChunkName: '__comp---site-src-pages-index-jsc-4-f-f99' */ '@site/src/pages/index.js'), '@site/src/pages/index.js', require.resolveWeak('@site/src/pages/index.js')],
   '__comp---theme-blog-archive-page-9-e-4-1d8': [() => import(/* webpackChunkName: '__comp---theme-blog-archive-page-9-e-4-1d8' */ '@theme/BlogArchivePage'), '@theme/BlogArchivePage', require.resolveWeak('@theme/BlogArchivePage')],
   '__comp---theme-blog-list-pagea-6-a-7ba': [() => import(/* webpackChunkName: '__comp---theme-blog-list-pagea-6-a-7ba' */ '@theme/BlogListPage'), '@theme/BlogListPage', require.resolveWeak('@theme/BlogListPage')],

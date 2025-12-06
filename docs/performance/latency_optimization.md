@@ -1,20 +1,5 @@
-# Latency Optimization Document
+# Model Latency Optimization
 
-This document outlines the strategies and results for optimizing the neural network inference and overall system latency.
+This document details the strategies and results for optimizing the latency of AI models (perception and policy) implemented on the humanoid robot, including profiling data, optimization techniques used, and achieved performance metrics.
 
-## Current Latency Measurements
-
-- Perception network inference: [X] ms
-- Policy network inference: [Y] ms
-- End-to-end perception-to-action: [Z] ms
-
-## Optimization Strategies Implemented
-
-- Model quantization
-- Hardware acceleration (e.g., TensorRT)
-- Efficient data transfer (e.g., shared memory)
-
-## Future Work
-
-- Further model compression
-- Asynchronous processing
+[Further details on model latency optimization to be added here.]

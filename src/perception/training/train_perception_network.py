@@ -1,36 +1,49 @@
-# Placeholder script for training the perception network
-# Using PyTorch for deep learning
-
 import torch
 import torch.nn as nn
 import torch.optim as optim
+import rclpy
+from rclpy.node import Node
+# from sensor_msgs.msg import Image # Example input data type
 
-class SimplePerceptionNet(nn.Module):
+class PerceptionNetwork(nn.Module):
     def __init__(self):
-        super(SimplePerceptionNet, self).__init__()
-        self.conv1 = nn.Conv2d(3, 6, 5)
-        self.pool = nn.MaxPool2d(2, 2)
-        self.conv2 = nn.Conv2d(6, 16, 5)
-        self.fc1 = nn.Linear(16 * 5 * 5, 120)
-        self.fc2 = nn.Linear(120, 84)
-        self.fc3 = nn.Linear(84, 10)
+        super(PerceptionNetwork, self).__init__()
+        # TODO: Define your perception network architecture here
+        self.conv1 = nn.Conv2d(3, 16, kernel_size=3, stride=1, padding=1)
+        self.relu = nn.ReLU()
+        self.fc1 = nn.Linear(16 * 64 * 64, 10) # Example assuming 64x64 input
 
     def forward(self, x):
-        x = self.pool(nn.functional.relu(self.conv1(x)))
-        x = self.pool(nn.functional.relu(self.conv2(x)))
-        x = x.view(-1, 16 * 5 * 5)
-        x = nn.functional.relu(self.fc1(x))
-        x = nn.functional.relu(self.fc2(x))
-        x = self.fc3(x)
+        # TODO: Implement forward pass
+        x = self.relu(self.conv1(x))
+        x = x.view(x.size(0), -1) # Flatten
+        x = self.fc1(x)
         return x
 
 def train_perception_network():
-    net = SimplePerceptionNet()
-    criterion = nn.CrossEntropyLoss()
-    optimizer = optim.SGD(net.parameters(), lr=0.001, momentum=0.9)
-    print("Placeholder: Training perception network...")
-    # Add actual training loop here
-    print("Placeholder: Perception network training complete.")
+    # TODO: Implement the full training pipeline here
+    # 1. Load dataset (e.g., from Isaac Sim generated data)
+    # 2. Define data loaders
+    # 3. Instantiate model, loss function, and optimizer
+    # 4. Implement training loop with forward/backward passes
+    # 5. Save trained model
+
+    print("Placeholder for perception network training script.")
+    print("Implement data loading, model definition, training loop, and model saving.")
+
+    # Example placeholder for training setup
+    # model = PerceptionNetwork()
+    # criterion = nn.CrossEntropyLoss()
+    # optimizer = optim.Adam(model.parameters(), lr=0.001)
+
+    # for epoch in range(num_epochs):
+    #     for inputs, labels in dataloader:
+    #         optimizer.zero_grad()
+    #         outputs = model(inputs)
+    #         loss = criterion(outputs, labels)
+    #         loss.backward()
+    #         optimizer.step()
+    # print("Perception network training completed (placeholder).")
 
 if __name__ == '__main__':
     train_perception_network()

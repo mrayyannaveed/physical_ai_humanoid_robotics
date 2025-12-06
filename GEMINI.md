@@ -219,6 +219,8 @@ Auto-generated from all feature plans. Last updated: 2025-12-03
 ## Active Technologies
 - Python 3.10+ (FastAPI), JavaScript/TypeScript (React) + FastAPI, Uvicorn, SQLAlchemy (or similar ORM) for backend; React, React Router, Redux (or Zustand/Context API), Styled Components (or Tailwind CSS/Emotion) for frontend. (1-humanoid-specs)
 - PostgreSQL (or SQLite for development) for user data and preferences. (1-humanoid-specs)
+- C++20, Python 3.10, JavaScript/TypeScript (React for frontend) + ROS 2 Humble, NVIDIA Isaac Sim, PyTorch, NVIDIA PhysX, FastAPI, Uvicorn, SQLAlchemy (or similar ORM), React, React Router, Redux (or Zustand/Context API), Styled Components (or Tailwind CSS/Emotion) (1-humanoid-specs)
+- Filesystem for logs and datasets (robotics), PostgreSQL (or SQLite for development) for user data and preferences (frontend) (1-humanoid-specs)
 
 - C++20, Python 3.10 + ROS 2 Humble, NVIDIA Isaac Sim, PyTorch, NVIDIA PhysX (1-humanoid-specs)
 
@@ -247,6 +249,7 @@ cd src; pytest; gtest
 C++20, Python 3.10: Follow standard conventions
 
 ## Recent Changes
+- 1-humanoid-specs: Added C++20, Python 3.10, JavaScript/TypeScript (React for frontend) + ROS 2 Humble, NVIDIA Isaac Sim, PyTorch, NVIDIA PhysX, FastAPI, Uvicorn, SQLAlchemy (or similar ORM), React, React Router, Redux (or Zustand/Context API), Styled Components (or Tailwind CSS/Emotion)
 - 1-humanoid-specs: Added Python 3.10+ (FastAPI), JavaScript/TypeScript (React) + FastAPI, Uvicorn, SQLAlchemy (or similar ORM) for backend; React, React Router, Redux (or Zustand/Context API), Styled Components (or Tailwind CSS/Emotion) for frontend.
 
 - 1-humanoid-specs: Added C++20, Python 3.10 + ROS 2 Humble, NVIDIA Isaac Sim, PyTorch, NVIDIA PhysX

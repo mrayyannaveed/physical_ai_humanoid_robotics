@@ -43,3 +43,34 @@ This guide provides the basic steps to set up the simulation environment and run
     ros2 topic pub /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.1}}" -1
     ```
     The robot should exhibit a small forward motion in the simulation.
+
+## 5. Frontend Application Setup
+
+This section outlines the steps to set up and run the web-based frontend application.
+
+### Prerequisites
+
+- Node.js (LTS version)
+- npm (Node Package Manager)
+
+### Setup and Run
+
+1.  **Navigate to the frontend directory**:
+    ```bash
+    cd book
+    ```
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
+3.  **Start the development server**:
+    ```bash
+    npm start
+    ```
+    The frontend application should now be accessible in your web browser, typically at `http://localhost:3000`.
+
+## 6. Verifying Frontend Setup
+
+-   Open your web browser and navigate to the address provided by `npm start`.
+-   You should see the Docusaurus homepage.
+-   Attempt to navigate to a login/signup page (if implemented) to confirm basic routing.

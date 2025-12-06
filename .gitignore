@@ -24,9 +24,7 @@ Thumbs.db
 *.tmp
 *.swp
 *.swo
-*.bak
 *~
-*.bak
 
 # Python (optional if you add AI training scripts)
 __pycache__/
@@ -50,6 +48,7 @@ out/
 *.lib
 *.pdb
 *.idb
+target/ # Added for common C++ build directory
 
 # ROS (optional for future real robot development)
 install/
@@ -61,6 +60,11 @@ logs/
 *.bag.active*
 
 # Dataset & PHR outputs
-*.bag
 contract-tests/
 phr/
+
+# Agent specific files
+.gemini/ # Added for agent's own files
+
+# Test coverage reports
+coverage/ # Added for test coverage reports

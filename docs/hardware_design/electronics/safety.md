@@ -1,3 +1,5 @@
 # Emergency Stop Circuit Schematic
 
-This document provides the schematic and design considerations for the robot's emergency stop circuit, ensuring compliance with safety standards.
+This document provides the design and schematic for the robot's emergency stop circuit, detailing its components, operation, and safety certifications.
+
+[Further details on emergency stop circuit design to be added here.]

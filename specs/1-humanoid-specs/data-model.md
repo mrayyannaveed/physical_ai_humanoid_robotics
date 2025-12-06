@@ -46,4 +46,19 @@ Represents the commands sent to the robot's actuators.
 
 ## 5. CommunicationStack
 
-This is not a data model itself, but the ROS 2 middleware that defines the structure for all data exchange. The contracts for this stack will be defined as `.msg`, `.srv`, and `.action` files in the `contracts/` directory.
+## 6. User
+
+Represents a user of the frontend application for authentication and personalization.
+
+-   **Fields**:
+    -   `id` (UUID): Unique identifier for the user.
+    -   `username` (string): User's chosen username (unique).
+    -   `email` (string): User's email address (unique).
+    -   `hashed_password` (string): Hashed password for security.
+    -   `language_preference` (string): User's preferred language (e.g., "en", "ur").
+    -   `theme_preference` (string): User's preferred theme (e.g., "dark", "light").
+    -   `is_active` (boolean): Whether the user account is active.
+    -   `is_admin` (boolean): Whether the user has administrative privileges.
+    -   `created_at` (datetime): Timestamp of user creation.
+    -   `updated_at` (datetime): Timestamp of last user update.
+
