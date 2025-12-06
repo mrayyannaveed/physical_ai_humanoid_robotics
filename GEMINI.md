@@ -1,4 +1,4 @@
-# Gemini CLI Rules
+﻿# Gemini CLI Rules
 
 This file is generated during init for the selected agent.
 
@@ -217,6 +217,8 @@ See `.specify/memory/constitution.md` for code quality, testing, performance, se
 Auto-generated from all feature plans. Last updated: 2025-12-03
 
 ## Active Technologies
+- Python 3.10+ (FastAPI), JavaScript/TypeScript (React) + FastAPI, Uvicorn, SQLAlchemy (or similar ORM) for backend; React, React Router, Redux (or Zustand/Context API), Styled Components (or Tailwind CSS/Emotion) for frontend. (1-humanoid-specs)
+- PostgreSQL (or SQLite for development) for user data and preferences. (1-humanoid-specs)
 
 - C++20, Python 3.10 + ROS 2 Humble, NVIDIA Isaac Sim, PyTorch, NVIDIA PhysX (1-humanoid-specs)
 
@@ -245,6 +247,7 @@ cd src; pytest; gtest
 C++20, Python 3.10: Follow standard conventions
 
 ## Recent Changes
+- 1-humanoid-specs: Added Python 3.10+ (FastAPI), JavaScript/TypeScript (React) + FastAPI, Uvicorn, SQLAlchemy (or similar ORM) for backend; React, React Router, Redux (or Zustand/Context API), Styled Components (or Tailwind CSS/Emotion) for frontend.
 
 - 1-humanoid-specs: Added C++20, Python 3.10 + ROS 2 Humble, NVIDIA Isaac Sim, PyTorch, NVIDIA PhysX
 
