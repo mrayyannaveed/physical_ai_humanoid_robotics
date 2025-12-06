@@ -1,0 +1,27 @@
+{
+  "unversionedId": "chapter-3/semantic-world-modeling",
+  "id": "chapter-3/semantic-world-modeling",
+  "title": "Semantic World Modeling",
+  "description": "For a humanoid robot to operate intelligently and robustly in complex, human-centric environments, it needs more than just a geometric map of its surroundings. It requires a semantic world model: an understanding of objects, their properties, their relationships, and their affordances (what actions they enable). This allows the robot to reason about its environment, plan high-level tasks, and interact more naturally with humans.",
+  "source": "@site/docs/chapter-3/03-semantic-world-modeling.md",
+  "sourceDirName": "chapter-3",
+  "slug": "/chapter-3/semantic-world-modeling",
+  "permalink": "/docs/chapter-3/semantic-world-modeling",
+  "draft": false,
+  "editUrl": "https://github.com/your-org/physical-ai-book/tree/main/docs/chapter-3/03-semantic-world-modeling.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Computer Vision for Robotics",
+    "permalink": "/docs/chapter-3/computer-vision-for-robotics"
+  },
+  "next": {
+    "title": "Motion Planning Algorithms",
+    "permalink": "/docs/chapter-4/motion-planning-algorithms"
+  }
+}

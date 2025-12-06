@@ -1,0 +1,27 @@
+{
+  "unversionedId": "chapter-5/testing-and-validation",
+  "id": "chapter-5/testing-and-validation",
+  "title": "Testing and Validation",
+  "description": "Rigorous testing and validation are paramount for humanoid robots, especially given their complex dynamics, interaction with unstructured environments, and potential for human interaction. The goal is to ensure safety, reliability, and performance across a wide range of operational scenarios.",
+  "source": "@site/docs/chapter-5/02-testing-and-validation.md",
+  "sourceDirName": "chapter-5",
+  "slug": "/chapter-5/testing-and-validation",
+  "permalink": "/docs/chapter-5/testing-and-validation",
+  "draft": false,
+  "editUrl": "https://github.com/your-org/physical-ai-book/tree/main/docs/chapter-5/02-testing-and-validation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "System Integration and ROS 2",
+    "permalink": "/docs/chapter-5/system-integration-and-ros"
+  },
+  "next": {
+    "title": "The Future of Humanoid Robotics",
+    "permalink": "/docs/chapter-5/the-future-of-humanoid-robotics"
+  }
+}

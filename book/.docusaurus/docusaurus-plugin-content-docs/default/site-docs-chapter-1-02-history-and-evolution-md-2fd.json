@@ -1,0 +1,27 @@
+{
+  "unversionedId": "chapter-1/history-and-evolution",
+  "id": "chapter-1/history-and-evolution",
+  "title": "History and Evolution of Humanoid Robotics",
+  "description": "The pursuit of creating artificial humans dates back centuries, but the last few decades—and particularly the period from 2020 to 2025—have seen an exponential acceleration in progress, driven by breakthroughs in AI, materials science, and actuator technology.",
+  "source": "@site/docs/chapter-1/02-history-and-evolution.md",
+  "sourceDirName": "chapter-1",
+  "slug": "/chapter-1/history-and-evolution",
+  "permalink": "/docs/chapter-1/history-and-evolution",
+  "draft": false,
+  "editUrl": "https://github.com/your-org/physical-ai-book/tree/main/docs/chapter-1/02-history-and-evolution.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction to Physical AI",
+    "permalink": "/docs/chapter-1/introduction"
+  },
+  "next": {
+    "title": "Core Concepts of Embodied Intelligence",
+    "permalink": "/docs/chapter-1/core-concepts"
+  }
+}

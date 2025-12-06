@@ -1,0 +1,27 @@
+{
+  "unversionedId": "chapter-4/advanced-control-systems",
+  "id": "chapter-4/advanced-control-systems",
+  "title": "Advanced Control Systems",
+  "description": "Control systems are the heart of a humanoid robot, translating high-level plans into low-level joint commands and ensuring stable, precise, and compliant execution. Given the complex, high-dimensional, and often redundant nature of humanoids, advanced control strategies are essential.",
+  "source": "@site/docs/chapter-4/02-advanced-control-systems.md",
+  "sourceDirName": "chapter-4",
+  "slug": "/chapter-4/advanced-control-systems",
+  "permalink": "/docs/chapter-4/advanced-control-systems",
+  "draft": false,
+  "editUrl": "https://github.com/your-org/physical-ai-book/tree/main/docs/chapter-4/02-advanced-control-systems.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Motion Planning Algorithms",
+    "permalink": "/docs/chapter-4/motion-planning-algorithms"
+  },
+  "next": {
+    "title": "Reinforcement Learning and Sim-to-Real",
+    "permalink": "/docs/chapter-4/reinforcement-learning-and-sim-to-real"
+  }
+}

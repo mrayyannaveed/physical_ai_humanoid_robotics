@@ -1,4 +1,4 @@
-# Gemini CLI Rules
+﻿# Gemini CLI Rules
 
 This file is generated during init for the selected agent.
 
@@ -208,3 +208,49 @@ Wait for consent; never auto-create ADRs. Group related decisions (stacks, authe
 
 ## Code Standards
 See `.specify/memory/constitution.md` for code quality, testing, performance, security, and architecture principles.
+
+---
+*The following sections are auto-generated from project plans.*
+
+# physical_ai_native_book Development Guidelines
+
+Auto-generated from all feature plans. Last updated: 2025-12-03
+
+## Active Technologies
+- Python 3.10+ (FastAPI), JavaScript/TypeScript (React) + FastAPI, Uvicorn, SQLAlchemy (or similar ORM) for backend; React, React Router, Redux (or Zustand/Context API), Styled Components (or Tailwind CSS/Emotion) for frontend. (1-humanoid-specs)
+- PostgreSQL (or SQLite for development) for user data and preferences. (1-humanoid-specs)
+
+- C++20, Python 3.10 + ROS 2 Humble, NVIDIA Isaac Sim, PyTorch, NVIDIA PhysX (1-humanoid-specs)
+
+## Project Structure
+
+```text
+src/
+├── common/             # Common messages, services, and utilities
+├── hardware/           # Hardware interface nodes (camera, IMU, motors)
+├── perception/         # Perception AI modules
+├── planning/           # World Model, Policy, and Motion Planner
+├── control/            # Low-level motor controllers
+└── simulation/         # Simulation assets and configs for Isaac Sim
+tests/
+├── contract/
+├── integration/
+└── unit/
+```
+
+## Commands
+
+cd src; pytest; gtest
+
+## Code Style
+
+C++20, Python 3.10: Follow standard conventions
+
+## Recent Changes
+- 1-humanoid-specs: Added Python 3.10+ (FastAPI), JavaScript/TypeScript (React) + FastAPI, Uvicorn, SQLAlchemy (or similar ORM) for backend; React, React Router, Redux (or Zustand/Context API), Styled Components (or Tailwind CSS/Emotion) for frontend.
+
+- 1-humanoid-specs: Added C++20, Python 3.10 + ROS 2 Humble, NVIDIA Isaac Sim, PyTorch, NVIDIA PhysX
+
+<!-- MANUAL ADDITIONS START -->
+<!-- MANUAL ADDITIONS END -->
+

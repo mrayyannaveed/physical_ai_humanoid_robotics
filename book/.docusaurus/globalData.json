@@ -1,0 +1,108 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "chapter-1/core-concepts",
+              "path": "/docs/chapter-1/core-concepts",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapter-1/history-and-evolution",
+              "path": "/docs/chapter-1/history-and-evolution",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapter-1/introduction",
+              "path": "/docs/chapter-1/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapter-2/actuators-and-sensors",
+              "path": "/docs/chapter-2/actuators-and-sensors",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapter-2/kinematics-and-dynamics",
+              "path": "/docs/chapter-2/kinematics-and-dynamics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapter-2/mechanical-design-and-materials",
+              "path": "/docs/chapter-2/mechanical-design-and-materials",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapter-3/computer-vision-for-robotics",
+              "path": "/docs/chapter-3/computer-vision-for-robotics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapter-3/semantic-world-modeling",
+              "path": "/docs/chapter-3/semantic-world-modeling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapter-3/sensor-fusion",
+              "path": "/docs/chapter-3/sensor-fusion",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapter-4/advanced-control-systems",
+              "path": "/docs/chapter-4/advanced-control-systems",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapter-4/motion-planning-algorithms",
+              "path": "/docs/chapter-4/motion-planning-algorithms",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapter-4/reinforcement-learning-and-sim-to-real",
+              "path": "/docs/chapter-4/reinforcement-learning-and-sim-to-real",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapter-5/system-integration-and-ros",
+              "path": "/docs/chapter-5/system-integration-and-ros",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapter-5/testing-and-validation",
+              "path": "/docs/chapter-5/testing-and-validation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapter-5/the-future-of-humanoid-robotics",
+              "path": "/docs/chapter-5/the-future-of-humanoid-robotics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "index",
+              "path": "/docs/",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/",
+                "label": "Table of Contents"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

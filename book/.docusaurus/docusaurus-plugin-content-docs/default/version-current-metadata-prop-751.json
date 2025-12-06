@@ -1,0 +1,247 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Table of Contents",
+        "href": "/docs/",
+        "docId": "index"
+      },
+      {
+        "type": "category",
+        "label": "Chapter 1: Foundations of Physical AI",
+        "items": [
+          {
+            "type": "link",
+            "label": "Introduction to Physical AI",
+            "href": "/docs/chapter-1/introduction",
+            "docId": "chapter-1/introduction"
+          },
+          {
+            "type": "link",
+            "label": "History and Evolution of Humanoid Robotics",
+            "href": "/docs/chapter-1/history-and-evolution",
+            "docId": "chapter-1/history-and-evolution"
+          },
+          {
+            "type": "link",
+            "label": "Core Concepts of Embodied Intelligence",
+            "href": "/docs/chapter-1/core-concepts",
+            "docId": "chapter-1/core-concepts"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Chapter 2: Humanoid Robot Design and Kinematics",
+        "items": [
+          {
+            "type": "link",
+            "label": "Mechanical Design and Materials",
+            "href": "/docs/chapter-2/mechanical-design-and-materials",
+            "docId": "chapter-2/mechanical-design-and-materials"
+          },
+          {
+            "type": "link",
+            "label": "Kinematics and Dynamics",
+            "href": "/docs/chapter-2/kinematics-and-dynamics",
+            "docId": "chapter-2/kinematics-and-dynamics"
+          },
+          {
+            "type": "link",
+            "label": "Actuators and Sensors",
+            "href": "/docs/chapter-2/actuators-and-sensors",
+            "docId": "chapter-2/actuators-and-sensors"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Chapter 3: Perception and World Modeling",
+        "items": [
+          {
+            "type": "link",
+            "label": "Sensor Fusion Techniques",
+            "href": "/docs/chapter-3/sensor-fusion",
+            "docId": "chapter-3/sensor-fusion"
+          },
+          {
+            "type": "link",
+            "label": "Computer Vision for Robotics",
+            "href": "/docs/chapter-3/computer-vision-for-robotics",
+            "docId": "chapter-3/computer-vision-for-robotics"
+          },
+          {
+            "type": "link",
+            "label": "Semantic World Modeling",
+            "href": "/docs/chapter-3/semantic-world-modeling",
+            "docId": "chapter-3/semantic-world-modeling"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Chapter 4: Planning, Control, and Learning",
+        "items": [
+          {
+            "type": "link",
+            "label": "Motion Planning Algorithms",
+            "href": "/docs/chapter-4/motion-planning-algorithms",
+            "docId": "chapter-4/motion-planning-algorithms"
+          },
+          {
+            "type": "link",
+            "label": "Advanced Control Systems",
+            "href": "/docs/chapter-4/advanced-control-systems",
+            "docId": "chapter-4/advanced-control-systems"
+          },
+          {
+            "type": "link",
+            "label": "Reinforcement Learning and Sim-to-Real",
+            "href": "/docs/chapter-4/reinforcement-learning-and-sim-to-real",
+            "docId": "chapter-4/reinforcement-learning-and-sim-to-real"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Chapter 5: System Integration, Testing, and Future Directions",
+        "items": [
+          {
+            "type": "link",
+            "label": "System Integration and ROS 2",
+            "href": "/docs/chapter-5/system-integration-and-ros",
+            "docId": "chapter-5/system-integration-and-ros"
+          },
+          {
+            "type": "link",
+            "label": "Testing and Validation",
+            "href": "/docs/chapter-5/testing-and-validation",
+            "docId": "chapter-5/testing-and-validation"
+          },
+          {
+            "type": "link",
+            "label": "The Future of Humanoid Robotics",
+            "href": "/docs/chapter-5/the-future-of-humanoid-robotics",
+            "docId": "chapter-5/the-future-of-humanoid-robotics"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      }
+    ]
+  },
+  "docs": {
+    "chapter-1/core-concepts": {
+      "id": "chapter-1/core-concepts",
+      "title": "Core Concepts of Embodied Intelligence",
+      "description": "Embodied intelligence is built on a set of foundational principles that distinguish it from traditional AI. These concepts are not independent but are deeply interconnected, forming the basis for how a physical agent learns and operates.",
+      "sidebar": "tutorialSidebar"
+    },
+    "chapter-1/history-and-evolution": {
+      "id": "chapter-1/history-and-evolution",
+      "title": "History and Evolution of Humanoid Robotics",
+      "description": "The pursuit of creating artificial humans dates back centuries, but the last few decades—and particularly the period from 2020 to 2025—have seen an exponential acceleration in progress, driven by breakthroughs in AI, materials science, and actuator technology.",
+      "sidebar": "tutorialSidebar"
+    },
+    "chapter-1/introduction": {
+      "id": "chapter-1/introduction",
+      "title": "Introduction to Physical AI",
+      "description": "What is Physical AI?",
+      "sidebar": "tutorialSidebar"
+    },
+    "chapter-2/actuators-and-sensors": {
+      "id": "chapter-2/actuators-and-sensors",
+      "title": "Actuators and Sensors",
+      "description": "The physical capabilities of a humanoid robot are fundamentally defined by its actuators (the \"muscles\") and its sensors (the \"senses\"). Recent advancements have pushed the boundaries of both, enabling more dynamic, dexterous, and perceptive robots.",
+      "sidebar": "tutorialSidebar"
+    },
+    "chapter-2/kinematics-and-dynamics": {
+      "id": "chapter-2/kinematics-and-dynamics",
+      "title": "Kinematics and Dynamics",
+      "description": "Understanding the kinematics and dynamics of a humanoid robot is fundamental to its control. Kinematics describes the motion of the robot without considering the forces and torques causing it, while dynamics relates these forces and torques to the resulting motion.",
+      "sidebar": "tutorialSidebar"
+    },
+    "chapter-2/mechanical-design-and-materials": {
+      "id": "chapter-2/mechanical-design-and-materials",
+      "title": "Mechanical Design and Materials",
+      "description": "The mechanical design of a humanoid robot is a study in trade-offs. The structure must be strong enough to withstand dynamic forces, yet lightweight enough for efficient locomotion. It must be complex enough to house a vast network of actuators, sensors, and electronics, yet simple enough to be manufactured and maintained at a reasonable cost.",
+      "sidebar": "tutorialSidebar"
+    },
+    "chapter-3/computer-vision-for-robotics": {
+      "id": "chapter-3/computer-vision-for-robotics",
+      "title": "Computer Vision for Robotics",
+      "description": "Computer Vision (CV) is arguably the most critical exteroceptive sensing modality for humanoid robots, providing rich information about the environment. Unlike general-purpose CV, robotics CV focuses heavily on real-time performance, 3D understanding, and direct applicability to manipulation and navigation tasks.",
+      "sidebar": "tutorialSidebar"
+    },
+    "chapter-3/semantic-world-modeling": {
+      "id": "chapter-3/semantic-world-modeling",
+      "title": "Semantic World Modeling",
+      "description": "For a humanoid robot to operate intelligently and robustly in complex, human-centric environments, it needs more than just a geometric map of its surroundings. It requires a semantic world model: an understanding of objects, their properties, their relationships, and their affordances (what actions they enable). This allows the robot to reason about its environment, plan high-level tasks, and interact more naturally with humans.",
+      "sidebar": "tutorialSidebar"
+    },
+    "chapter-3/sensor-fusion": {
+      "id": "chapter-3/sensor-fusion",
+      "title": "Sensor Fusion Techniques",
+      "description": "Effective perception in humanoid robots relies heavily on the ability to integrate and interpret data from a diverse array of sensors. Sensor fusion is the process of combining data from multiple sensors to achieve a more accurate, robust, and complete understanding of the robot's internal state and its external environment than could be obtained from any single sensor alone.",
+      "sidebar": "tutorialSidebar"
+    },
+    "chapter-4/advanced-control-systems": {
+      "id": "chapter-4/advanced-control-systems",
+      "title": "Advanced Control Systems",
+      "description": "Control systems are the heart of a humanoid robot, translating high-level plans into low-level joint commands and ensuring stable, precise, and compliant execution. Given the complex, high-dimensional, and often redundant nature of humanoids, advanced control strategies are essential.",
+      "sidebar": "tutorialSidebar"
+    },
+    "chapter-4/motion-planning-algorithms": {
+      "id": "chapter-4/motion-planning-algorithms",
+      "title": "Motion Planning Algorithms",
+      "description": "Motion planning is the process of finding a sequence of valid configurations that moves a robot from a start state to a goal state while avoiding obstacles and respecting kinematic and dynamic constraints. For humanoid robots, this is particularly challenging due to their high dimensionality, complex dynamics, and need to maintain balance.",
+      "sidebar": "tutorialSidebar"
+    },
+    "chapter-4/reinforcement-learning-and-sim-to-real": {
+      "id": "chapter-4/reinforcement-learning-and-sim-to-real",
+      "title": "Reinforcement Learning and Sim-to-Real",
+      "description": "Reinforcement Learning (RL) has emerged as a powerful paradigm for teaching complex behaviors to humanoid robots, particularly for tasks that are difficult to program explicitly. However, applying RL to physical robots is challenging, leading to the development of \"sim-to-real\" techniques.",
+      "sidebar": "tutorialSidebar"
+    },
+    "chapter-5/system-integration-and-ros": {
+      "id": "chapter-5/system-integration-and-ros",
+      "title": "System Integration and ROS 2",
+      "description": "Integrating the myriad hardware and software components of a humanoid robot is a complex undertaking. The Robot Operating System (ROS), particularly its second generation (ROS 2), provides a powerful, flexible, and standardized framework for managing this complexity.",
+      "sidebar": "tutorialSidebar"
+    },
+    "chapter-5/testing-and-validation": {
+      "id": "chapter-5/testing-and-validation",
+      "title": "Testing and Validation",
+      "description": "Rigorous testing and validation are paramount for humanoid robots, especially given their complex dynamics, interaction with unstructured environments, and potential for human interaction. The goal is to ensure safety, reliability, and performance across a wide range of operational scenarios.",
+      "sidebar": "tutorialSidebar"
+    },
+    "chapter-5/the-future-of-humanoid-robotics": {
+      "id": "chapter-5/the-future-of-humanoid-robotics",
+      "title": "The Future of Humanoid Robotics",
+      "description": "The field of humanoid robotics stands at the precipice of a transformative era. Driven by rapid advancements in AI, sensor technology, and mechanical design, humanoid robots are poised to move from research labs and industrial prototypes into widespread real-world deployment.",
+      "sidebar": "tutorialSidebar"
+    },
+    "index": {
+      "id": "index",
+      "title": "Table of Contents",
+      "description": "Welcome to \"Physical AI and Humanoid Robotics: An Engineer's Guide to Embodied Intelligence\". This book provides a comprehensive, engineer-focused exploration of the principles, technologies, and practices required to design, build, and program advanced humanoid robots.",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

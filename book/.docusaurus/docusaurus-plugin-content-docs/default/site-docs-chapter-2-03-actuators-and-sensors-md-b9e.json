@@ -1,0 +1,27 @@
+{
+  "unversionedId": "chapter-2/actuators-and-sensors",
+  "id": "chapter-2/actuators-and-sensors",
+  "title": "Actuators and Sensors",
+  "description": "The physical capabilities of a humanoid robot are fundamentally defined by its actuators (the \"muscles\") and its sensors (the \"senses\"). Recent advancements have pushed the boundaries of both, enabling more dynamic, dexterous, and perceptive robots.",
+  "source": "@site/docs/chapter-2/03-actuators-and-sensors.md",
+  "sourceDirName": "chapter-2",
+  "slug": "/chapter-2/actuators-and-sensors",
+  "permalink": "/docs/chapter-2/actuators-and-sensors",
+  "draft": false,
+  "editUrl": "https://github.com/your-org/physical-ai-book/tree/main/docs/chapter-2/03-actuators-and-sensors.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Kinematics and Dynamics",
+    "permalink": "/docs/chapter-2/kinematics-and-dynamics"
+  },
+  "next": {
+    "title": "Sensor Fusion Techniques",
+    "permalink": "/docs/chapter-3/sensor-fusion"
+  }
+}
