@@ -42,6 +42,13 @@
       "plugin": "plugin---docusaurus-debug-127-3d8"
     }
   },
+  "/auth-bcb": {
+    "__comp": "__comp---site-src-pages-auth-js-755-117",
+    "__context": {
+      "plugin": "plugin---b-1-b-52d"
+    },
+    "config": "config---5-e-9-4f3"
+  },
   "/blog-721": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {

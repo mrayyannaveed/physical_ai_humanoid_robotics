@@ -1,3 +1,91 @@
 /**
- * Any custom CSS styles for the Docusaurus site can be added here.
+ * Any CSS rules here will be applied to the entire Docusaurus project.
  */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #76b900; /* NVIDIA Green */
+  --ifm-color-primary-dark: #5e9600;
+  --ifm-color-primary-darker: #568a00;
+  --ifm-color-primary-darkest: #487200;
+  --ifm-color-primary-light: #8ecc19;
+  --ifm-color-primary-lighter: #97d921;
+  --ifm-color-primary-lightest: #a8ed2f;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For users with a preference for dark mode or when dark mode is explicitly enabled */
+html[data-theme='dark'] {
+  --ifm-color-primary: #76b900; /* NVIDIA Green */
+  --ifm-color-primary-dark: #5e9600;
+  --ifm-color-primary-darker: #568a00;
+  --ifm-color-primary-darkest: #487200;
+  --ifm-color-primary-light: #8ecc19;
+  --ifm-color-primary-lighter: #97d921;
+  --ifm-color-primary-lightest: #a8ed2f;
+
+  --ifm-background-color: #1a1b1e; /* Dark background */
+  --ifm-background-surface-color: #2a2c30; /* Slightly lighter surface for cards, etc. */
+  --ifm-color-emphasis-100: #f0f0f0;
+  --ifm-color-emphasis-200: #e0e0e0;
+  --ifm-color-emphasis-300: #c0c0c0;
+  --ifm-color-emphasis-400: #a0a0a0;
+  --ifm-color-emphasis-500: #808080;
+  --ifm-color-emphasis-600: #606060;
+  --ifm-color-emphasis-700: #404040;
+  --ifm-color-emphasis-800: #303030;
+  --ifm-color-emphasis-900: #202020;
+
+  --ifm-heading-color: #ffffff;
+  --ifm-text-color: #e0e0e0;
+  --ifm-link-color: var(--ifm-color-primary);
+  --ifm-link-hover-color: var(--ifm-color-primary-light);
+  --ifm-link-decoration: none;
+
+  --ifm-navbar-background-color: #0d0d0e; /* Even darker navbar */
+  --ifm-footer-background-color: #0d0d0e; /* Even darker footer */
+
+  --docusaurus-highlighted-code-line-bg: rgba(118, 185, 0, 0.1); /* Green tint for highlighted code */
+}
+
+/* Custom styles for NVIDIA look and feel */
+.navbar__brand {
+  font-weight: bold;
+  /* Adjust font, size, etc. for NVIDIA branding */
+}
+
+.button--primary {
+  background-color: var(--ifm-color-primary);
+  color: white;
+}
+.button--primary:hover {
+  background-color: var(--ifm-color-primary-light);
+}
+
+/* Example of making cards look premium dark */
+.card {
+  background-color: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-color-emphasis-700);
+  box-shadow: none;
+}
+.card__header {
+  color: var(--ifm-heading-color);
+}
+.card__body {
+  color: var(--ifm-text-color);
+}
+
+/* Adjustments for code blocks in dark mode */
+html[data-theme='dark'] .token.comment,
+html[data-theme='dark'] .token.prolog,
+html[data-theme='dark'] .token.doctype,
+html[data-theme='dark'] .token.cdata {
+  color: #999999;
+}
+
+html[data-theme='dark'] .token.punctuation {
+  color: #cccccc;
+}
+
+/* Further customization would involve more specific Docusaurus components */

@@ -1,3 +1,5 @@
 # Motor Driver Selection
 
-This document details the selection criteria and chosen motor drivers for the humanoid robot's various joints, considering torque, speed, and communication protocols.
+This document outlines the selection process and final choices for the humanoid robot's motor drivers, including specifications, rationale, and integration considerations.
+
+[Further details on motor driver selection and specifications to be added here.]
