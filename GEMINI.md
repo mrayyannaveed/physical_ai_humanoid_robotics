@@ -1,4 +1,4 @@
-﻿# Gemini CLI Rules
+# Gemini CLI Rules
 
 This file is generated during init for the selected agent.
 
@@ -214,15 +214,17 @@ See `.specify/memory/constitution.md` for code quality, testing, performance, se
 
 # physical_ai_native_book Development Guidelines
 
-Auto-generated from all feature plans. Last updated: 2025-12-03
+Auto-generated from all feature plans. Last updated: 2025-12-07
 
 ## Active Technologies
 - Python 3.10+ (FastAPI), JavaScript/TypeScript (React) + FastAPI, Uvicorn, SQLAlchemy (or similar ORM) for backend; React, React Router, Redux (or Zustand/Context API), Styled Components (or Tailwind CSS/Emotion) for frontend. (1-humanoid-specs)
 - PostgreSQL (or SQLite for development) for user data and preferences. (1-humanoid-specs)
 - C++20, Python 3.10, JavaScript/TypeScript (React for frontend) + ROS 2 Humble, NVIDIA Isaac Sim, PyTorch, NVIDIA PhysX, FastAPI, Uvicorn, SQLAlchemy (or similar ORM), React, React Router, Redux (or Zustand/Context API), Styled Components (or Tailwind CSS/Emotion) (1-humanoid-specs)
 - Filesystem for logs and datasets (robotics), PostgreSQL (or SQLite for development) for user data and preferences (frontend) (1-humanoid-specs)
-
 - C++20, Python 3.10 + ROS 2 Humble, NVIDIA Isaac Sim, PyTorch, NVIDIA PhysX (1-humanoid-specs)
+
+## Frontend
+- React, Docusaurus
 
 ## Project Structure
 
@@ -240,6 +242,16 @@ tests/
 └── unit/
 ```
 
+## UI Components
+- `book/src/pages/index.js`
+- `book/src/css/custom.css`
+- `book/src/components/Footer.js`
+- `book/src/components/Navbar.js`
+- `book/src/components/HomepageFeatures.js`
+- `book/src/theme/Root.js`
+- `book/src/components/Personalization.js`
+- `book/src/components/ThemeSwitcher.js`
+
 ## Commands
 
 cd src; pytest; gtest
@@ -248,12 +260,23 @@ cd src; pytest; gtest
 
 C++20, Python 3.10: Follow standard conventions
 
+## Styling
+- Modern, professional, and visually appealing look and feel
+- Gradient and fade-in animation for the hero banner
+- Restyled buttons
+- New design for the course module cards with hover effects
+- Improved dark mode
+
 ## Recent Changes
 - 1-humanoid-specs: Added C++20, Python 3.10, JavaScript/TypeScript (React for frontend) + ROS 2 Humble, NVIDIA Isaac Sim, PyTorch, NVIDIA PhysX, FastAPI, Uvicorn, SQLAlchemy (or similar ORM), React, React Router, Redux (or Zustand/Context API), Styled Components (or Tailwind CSS/Emotion)
 - 1-humanoid-specs: Added Python 3.10+ (FastAPI), JavaScript/TypeScript (React) + FastAPI, Uvicorn, SQLAlchemy (or similar ORM) for backend; React, React Router, Redux (or Zustand/Context API), Styled Components (or Tailwind CSS/Emotion) for frontend.
-
 - 1-humanoid-specs: Added C++20, Python 3.10 + ROS 2 Humble, NVIDIA Isaac Sim, PyTorch, NVIDIA PhysX
+- UI/UX Modernization:
+  - Revamped the CSS to introduce a modern, professional look and feel.
+  - The hero banner now has a gradient and a fade-in animation.
+  - Buttons have been restyled.
+  - The course module cards have a new design with hover effects.
+  - Dark mode has been improved.
 
 <!-- MANUAL ADDITIONS START -->
 <!-- MANUAL ADDITIONS END -->
-

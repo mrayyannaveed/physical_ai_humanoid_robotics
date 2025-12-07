@@ -74,7 +74,7 @@ function Personalization() {
 
 
   return (
-    <div className="card">
+    <div className="card personalization-fade-in">
       <div className="card__header">
         <h3>{t('Personalization Settings')}</h3>
       </div>
