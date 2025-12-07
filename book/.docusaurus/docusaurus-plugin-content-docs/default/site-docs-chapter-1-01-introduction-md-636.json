@@ -1,5 +1,4 @@
 {
-  "unversionedId": "chapter-1/introduction",
   "id": "chapter-1/introduction",
   "title": "Introduction to Physical AI",
   "description": "What is Physical AI?",
@@ -8,6 +7,7 @@
   "slug": "/chapter-1/introduction",
   "permalink": "/docs/chapter-1/introduction",
   "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/your-org/physical-ai-book/tree/main/docs/chapter-1/01-introduction.md",
   "tags": [],
   "version": "current",

@@ -1,5 +1,4 @@
 {
-  "unversionedId": "chapter-3/sensor-fusion",
   "id": "chapter-3/sensor-fusion",
   "title": "Sensor Fusion Techniques",
   "description": "Effective perception in humanoid robots relies heavily on the ability to integrate and interpret data from a diverse array of sensors. Sensor fusion is the process of combining data from multiple sensors to achieve a more accurate, robust, and complete understanding of the robot's internal state and its external environment than could be obtained from any single sensor alone.",
@@ -8,6 +7,7 @@
   "slug": "/chapter-3/sensor-fusion",
   "permalink": "/docs/chapter-3/sensor-fusion",
   "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/your-org/physical-ai-book/tree/main/docs/chapter-3/01-sensor-fusion.md",
   "tags": [],
   "version": "current",

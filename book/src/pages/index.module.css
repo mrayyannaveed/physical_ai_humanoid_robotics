@@ -3,32 +3,103 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
+  padding: 6rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
+  background: linear-gradient(135deg, #1a1b1e, #2a2c30);
+  color: white;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+.heroBanner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('/static/img/robotics-bg.png') no-repeat center center;
+  background-size: cover;
+  opacity: 0.1;
+  z-index: 0;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+}
+
+.hero__title {
+  font-size: 4rem;
+  font-weight: 800;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.hero__subtitle {
+  font-size: 1.5rem;
+  margin-top: 1rem;
 }
 
 .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 1rem;
+  margin-top: 2.5rem;
 }
 
-.features {
-  display: flex;
-  align-items: center;
-  padding: 2rem 0;
-  width: 100%;
+.button--github {
+  background-color: #333;
+  color: white;
+  border: none;
 }
 
-.featureSvg {
-  height: 200px;
-  width: 200px;
+.button--github:hover {
+  background-color: #444;
+}
+
+.github-icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  mask: url('/static/img/github.svg') no-repeat center;
+  mask-size: contain;
+  background-color: white;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+
+
+/* Modules Section */
+.modules-section {
+  padding: 4rem 0;
+}
+
+.modules-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  font-weight: 700;
+}
+
+.module {
+  margin-bottom: 2rem;
+}
+
+/* Animations */
+.hero-fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.modules-fade-in {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

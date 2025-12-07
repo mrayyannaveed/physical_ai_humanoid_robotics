@@ -5,23 +5,25 @@
   "title": "Welcome to Physical AI and Humanoid Robotics!",
   "description": "We are thrilled to announce the launch of our new documentation site for \"Physical AI and Humanoid Robotics: An Engineer's Guide to Embodied Intelligence\"!",
   "date": "2025-12-03T00:00:00.000Z",
-  "formattedDate": "December 3, 2025",
   "tags": [
     {
+      "inline": true,
       "label": "introduction",
       "permalink": "/blog/tags/introduction"
     },
     {
+      "inline": true,
       "label": "robotics",
       "permalink": "/blog/tags/robotics"
     },
     {
+      "inline": true,
       "label": "ai",
       "permalink": "/blog/tags/ai"
     }
   ],
-  "readingTime": 1.135,
-  "truncated": false,
+  "readingTime": 1.13,
+  "hasTruncateMarker": false,
   "authors": [],
   "frontMatter": {
     "slug": "welcome",
@@ -31,5 +33,6 @@
       "robotics",
       "ai"
     ]
-  }
+  },
+  "unlisted": false
 }

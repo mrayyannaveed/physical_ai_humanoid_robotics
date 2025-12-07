@@ -3,7 +3,9 @@
   "items": [
     {
       "title": "Welcome to Physical AI and Humanoid Robotics!",
-      "permalink": "/blog/welcome"
+      "permalink": "/blog/welcome",
+      "unlisted": false,
+      "date": "2025-12-03T00:00:00.000Z"
     }
   ]
 }

@@ -1,5 +1,4 @@
 {
-  "unversionedId": "chapter-5/the-future-of-humanoid-robotics",
   "id": "chapter-5/the-future-of-humanoid-robotics",
   "title": "The Future of Humanoid Robotics",
   "description": "The field of humanoid robotics stands at the precipice of a transformative era. Driven by rapid advancements in AI, sensor technology, and mechanical design, humanoid robots are poised to move from research labs and industrial prototypes into widespread real-world deployment.",
@@ -8,6 +7,7 @@
   "slug": "/chapter-5/the-future-of-humanoid-robotics",
   "permalink": "/docs/chapter-5/the-future-of-humanoid-robotics",
   "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/your-org/physical-ai-book/tree/main/docs/chapter-5/03-the-future-of-humanoid-robotics.md",
   "tags": [],
   "version": "current",

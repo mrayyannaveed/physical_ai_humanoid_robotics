@@ -1,5 +1,4 @@
 {
-  "unversionedId": "chapter-5/system-integration-and-ros",
   "id": "chapter-5/system-integration-and-ros",
   "title": "System Integration and ROS 2",
   "description": "Integrating the myriad hardware and software components of a humanoid robot is a complex undertaking. The Robot Operating System (ROS), particularly its second generation (ROS 2), provides a powerful, flexible, and standardized framework for managing this complexity.",
@@ -8,6 +7,7 @@
   "slug": "/chapter-5/system-integration-and-ros",
   "permalink": "/docs/chapter-5/system-integration-and-ros",
   "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/your-org/physical-ai-book/tree/main/docs/chapter-5/01-system-integration-and-ros.md",
   "tags": [],
   "version": "current",

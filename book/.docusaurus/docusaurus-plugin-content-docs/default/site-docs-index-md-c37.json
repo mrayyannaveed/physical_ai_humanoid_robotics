@@ -1,5 +1,4 @@
 {
-  "unversionedId": "index",
   "id": "index",
   "title": "Table of Contents",
   "description": "Welcome to \"Physical AI and Humanoid Robotics: An Engineer's Guide to Embodied Intelligence\". This book provides a comprehensive, engineer-focused exploration of the principles, technologies, and practices required to design, build, and program advanced humanoid robots.",
@@ -8,6 +7,7 @@
   "slug": "/",
   "permalink": "/docs/",
   "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/your-org/physical-ai-book/tree/main/docs/index.md",
   "tags": [],
   "version": "current",
