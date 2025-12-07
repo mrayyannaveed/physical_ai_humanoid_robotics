@@ -12,7 +12,7 @@ function ThemeSwitcher() {
   };
 
   return (
-    <div className="dropdown dropdown--hoverable">
+    <div className="dropdown dropdown--hoverable theme-switcher-fade-in">
       <a className="button button--secondary">
         {colorMode === 'dark' ? t('dark_mode') : t('light_mode')}
       </a>

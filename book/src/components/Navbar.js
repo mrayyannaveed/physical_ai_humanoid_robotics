@@ -20,7 +20,7 @@ function CustomNavbar() {
   };
 
   return (
-    <nav className="navbar navbar--fixed-top">
+    <nav className="navbar navbar--fixed-top navbar-fade-in">
       <div className="navbar__inner">
         <a className="navbar__brand" href="/">
           {/* You might want to use a custom logo here */}

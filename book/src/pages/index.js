@@ -26,7 +26,7 @@ const modules = [
     description: 'Advanced algorithms for motion planning and control.',
     link: '/docs/chapter-4/motion-planning-algorithms',
   },
-    {
+  {
     title: 'Chapter 5: System Integration and Future of Humanoid Robotics',
     description: 'System Integration, ROS, and the future of humanoid robotics.',
     link: '/docs/chapter-5/system-integration-and-ros',
@@ -42,22 +42,22 @@ function HomepageHeader() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
-            className="button button--secondary button--lg"
-            to="/docs">
+            className="button button--secondary button--lg cursor-pointer"
+            href="/docs">
             Start Learning
           </Link>
           <Link
-            className="button button--info button--lg"
-            to="/docs">
+            className="button button--info button--lg cursor-pointer"
+            href="/docs">
             Assessment
           </Link>
-          <a
-            className="button button--github button--lg"
+          <Link
+            className="button button--github button--lg cursor-pointer"
             href="https://github.com/mrayyannaveed"
             target="_blank"
             rel="noopener noreferrer">
             <span className="github-icon"></span> Github
-          </a>
+          </Link>
         </div>
       </div>
     </header>
@@ -94,7 +94,6 @@ function ModulesSection() {
     </section>
   );
 }
-
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();

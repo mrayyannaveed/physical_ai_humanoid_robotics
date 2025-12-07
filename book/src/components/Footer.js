@@ -9,7 +9,7 @@ function CustomFooter() {
   const { t } = useI18n();
 
   return (
-    <footer className="footer footer--dark">
+    <footer className="footer footer--dark footer-fade-in">
       <div className="container container--fluid">
         <div className="row footer__links">
           <div className="col footer__col">
@@ -43,3 +43,4 @@ function CustomFooter() {
 }
 
 export default CustomFooter;
+
