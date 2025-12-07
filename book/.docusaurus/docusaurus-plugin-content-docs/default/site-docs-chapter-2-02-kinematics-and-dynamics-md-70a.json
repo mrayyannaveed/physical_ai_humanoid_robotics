@@ -1,5 +1,4 @@
 {
-  "unversionedId": "chapter-2/kinematics-and-dynamics",
   "id": "chapter-2/kinematics-and-dynamics",
   "title": "Kinematics and Dynamics",
   "description": "Understanding the kinematics and dynamics of a humanoid robot is fundamental to its control. Kinematics describes the motion of the robot without considering the forces and torques causing it, while dynamics relates these forces and torques to the resulting motion.",
@@ -8,6 +7,7 @@
   "slug": "/chapter-2/kinematics-and-dynamics",
   "permalink": "/docs/chapter-2/kinematics-and-dynamics",
   "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/your-org/physical-ai-book/tree/main/docs/chapter-2/02-kinematics-and-dynamics.md",
   "tags": [],
   "version": "current",

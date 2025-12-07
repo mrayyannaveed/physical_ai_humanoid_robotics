@@ -1,58 +1,58 @@
 {
-  "/__docusaurus/debug-36a": {
+  "/__docusaurus/debug-5ff": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-127-3d8"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/__docusaurus/debug/config-e56": {
+  "/__docusaurus/debug/config-5ba": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-127-3d8"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/__docusaurus/debug/content-f47": {
+  "/__docusaurus/debug/content-a2b": {
     "__comp": "__comp---theme-debug-contentba-8-ce7",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-127-3d8"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     },
-    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
   },
-  "/__docusaurus/debug/globalData-c7d": {
+  "/__docusaurus/debug/globalData-c3c": {
     "__comp": "__comp---theme-debug-global-dataede-0fa",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-127-3d8"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/__docusaurus/debug/metadata-468": {
+  "/__docusaurus/debug/metadata-156": {
     "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-127-3d8"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/__docusaurus/debug/registry-2fe": {
+  "/__docusaurus/debug/registry-88c": {
     "__comp": "__comp---theme-debug-registry-679-501",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-127-3d8"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/__docusaurus/debug/routes-82f": {
+  "/__docusaurus/debug/routes-000": {
     "__comp": "__comp---theme-debug-routes-946-699",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-127-3d8"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/auth-bcb": {
+  "/auth-4fe": {
     "__comp": "__comp---site-src-pages-auth-js-755-117",
     "__context": {
-      "plugin": "plugin---b-1-b-52d"
+      "plugin": "plugin---autha-74-da4"
     },
-    "config": "config---5-e-9-4f3"
+    "config": "config---auth-5-e-9-ea4"
   },
-  "/blog-721": {
+  "/blog-4e4": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
-      "plugin": "plugin---blog-8-ac-12b"
+      "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
@@ -60,27 +60,27 @@
         "content": "content---blog-8-a-4-e09"
       }
     ],
-    "metadata": "metadata---blogb-2-b-df1"
+    "__props": "__props---blogc-15-573"
   },
-  "/blog/archive-691": {
+  "/blog/archive-182": {
     "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
     "__context": {
-      "plugin": "plugin---blog-8-ac-12b"
+      "plugin": "plugin---blog-369-22e"
     },
-    "archive": "archive---blog-archiveb-2-f-393"
+    "__props": "__props---blog-archivef-81-229"
   },
-  "/blog/tags-40a": {
+  "/blog/tags-287": {
     "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
     "__context": {
-      "plugin": "plugin---blog-8-ac-12b"
+      "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
-    "tags": "tags---blog-tagsa-70-da2"
+    "__props": "__props---blog-tags-3-a-2-fa2"
   },
-  "/blog/tags/ai-7e7": {
+  "/blog/tags/ai-9b8": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---blog-8-ac-12b"
+      "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
@@ -88,13 +88,12 @@
         "content": "content---blog-8-a-4-e09"
       }
     ],
-    "tag": "tag---blog-tags-aif-32-543",
-    "listMetadata": "listMetadata---blog-tags-aiab-4-9b4"
+    "__props": "__props---blog-tags-ai-65-a-ec1"
   },
-  "/blog/tags/introduction-b6f": {
+  "/blog/tags/introduction-662": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---blog-8-ac-12b"
+      "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
@@ -102,13 +101,12 @@
         "content": "content---blog-8-a-4-e09"
       }
     ],
-    "tag": "tag---blog-tags-introduction-204-dbd",
-    "listMetadata": "listMetadata---blog-tags-introduction-5-ad-a84"
+    "__props": "__props---blog-tags-introduction-65-e-a98"
   },
-  "/blog/tags/robotics-1dd": {
+  "/blog/tags/robotics-49b": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---blog-8-ac-12b"
+      "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
@@ -116,93 +114,101 @@
         "content": "content---blog-8-a-4-e09"
       }
     ],
-    "tag": "tag---blog-tags-robotics-38-e-641",
-    "listMetadata": "listMetadata---blog-tags-robotics-4-f-7-f56"
+    "__props": "__props---blog-tags-robotics-753-22f"
   },
-  "/blog/welcome-3a7": {
+  "/blog/welcome-f85": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---blog-8-ac-12b"
+      "data": {
+        "blogMetadata": "blogMetadata---blog-welcomeace-e47"
+      },
+      "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-welcome-433-240"
   },
-  "/docs-42c": {
-    "__comp": "__comp---theme-doc-page-1-be-9be",
+  "/docs-eb5": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
-      "plugin": "plugin---docs-9-bb-be7"
-    },
-    "versionMetadata": "versionMetadata---docs-935-398"
+      "plugin": "plugin---docsaba-d7c"
+    }
   },
-  "/docs/-a8c": {
+  "/docs-264": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---docs-005-788"
+  },
+  "/docs-33a": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/docs/-4a8": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-c-37-4d0"
   },
-  "/docs/chapter-1/core-concepts-0c2": {
+  "/docs/chapter-1/core-concepts-b8e": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-chapter-1-core-conceptsd-4-c-751"
   },
-  "/docs/chapter-1/history-and-evolution-c90": {
+  "/docs/chapter-1/history-and-evolution-844": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-chapter-1-history-and-evolution-2-fd-4a5"
   },
-  "/docs/chapter-1/introduction-9e0": {
+  "/docs/chapter-1/introduction-4a0": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-chapter-1-introduction-636-2b9"
   },
-  "/docs/chapter-2/actuators-and-sensors-52d": {
+  "/docs/chapter-2/actuators-and-sensors-1cb": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-chapter-2-actuators-and-sensorsb-9-e-961"
   },
-  "/docs/chapter-2/kinematics-and-dynamics-d84": {
+  "/docs/chapter-2/kinematics-and-dynamics-771": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-chapter-2-kinematics-and-dynamics-70-a-020"
   },
-  "/docs/chapter-2/mechanical-design-and-materials-d30": {
+  "/docs/chapter-2/mechanical-design-and-materials-349": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-chapter-2-mechanical-design-and-materialsb-0-e-762"
   },
-  "/docs/chapter-3/computer-vision-for-robotics-d60": {
+  "/docs/chapter-3/computer-vision-for-robotics-a88": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-chapter-3-computer-vision-for-robotics-709-ce6"
   },
-  "/docs/chapter-3/semantic-world-modeling-ec1": {
+  "/docs/chapter-3/semantic-world-modeling-bc0": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-chapter-3-semantic-world-modelingc-77-8e9"
   },
-  "/docs/chapter-3/sensor-fusion-58f": {
+  "/docs/chapter-3/sensor-fusion-1e0": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-chapter-3-sensor-fusion-4-d-3-8b1"
   },
-  "/docs/chapter-4/advanced-control-systems-b38": {
+  "/docs/chapter-4/advanced-control-systems-44b": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-chapter-4-advanced-control-systemsdc-3-2ff"
   },
-  "/docs/chapter-4/motion-planning-algorithms-812": {
+  "/docs/chapter-4/motion-planning-algorithms-a16": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-chapter-4-motion-planning-algorithms-2-b-3-b6e"
   },
-  "/docs/chapter-4/reinforcement-learning-and-sim-to-real-92e": {
+  "/docs/chapter-4/reinforcement-learning-and-sim-to-real-c53": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-chapter-4-reinforcement-learning-and-sim-to-reala-8-a-4fe"
   },
-  "/docs/chapter-5/system-integration-and-ros-d23": {
+  "/docs/chapter-5/system-integration-and-ros-4d4": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-chapter-5-system-integration-and-ros-31-a-f51"
   },
-  "/docs/chapter-5/testing-and-validation-b13": {
+  "/docs/chapter-5/testing-and-validation-aca": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-chapter-5-testing-and-validation-820-39a"
   },
-  "/docs/chapter-5/the-future-of-humanoid-robotics-8a6": {
+  "/docs/chapter-5/the-future-of-humanoid-robotics-84d": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-chapter-5-the-future-of-humanoid-roboticsd-62-499"
   },
-  "/-08c": {
+  "/-2e1": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
     "__context": {
-      "plugin": "plugin---b-1-b-52d"
+      "plugin": "plugin---autha-74-da4"
     },
-    "config": "config---5-e-9-4f3"
+    "config": "config---auth-5-e-9-ea4"
   }
 }

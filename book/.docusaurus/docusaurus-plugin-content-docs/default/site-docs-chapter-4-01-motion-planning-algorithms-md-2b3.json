@@ -1,5 +1,4 @@
 {
-  "unversionedId": "chapter-4/motion-planning-algorithms",
   "id": "chapter-4/motion-planning-algorithms",
   "title": "Motion Planning Algorithms",
   "description": "Motion planning is the process of finding a sequence of valid configurations that moves a robot from a start state to a goal state while avoiding obstacles and respecting kinematic and dynamic constraints. For humanoid robots, this is particularly challenging due to their high dimensionality, complex dynamics, and need to maintain balance.",
@@ -8,6 +7,7 @@
   "slug": "/chapter-4/motion-planning-algorithms",
   "permalink": "/docs/chapter-4/motion-planning-algorithms",
   "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/your-org/physical-ai-book/tree/main/docs/chapter-4/01-motion-planning-algorithms.md",
   "tags": [],
   "version": "current",

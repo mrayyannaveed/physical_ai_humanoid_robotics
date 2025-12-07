@@ -11,6 +11,7 @@
   --ifm-color-primary-light: #8ecc19;
   --ifm-color-primary-lighter: #97d921;
   --ifm-color-primary-lightest: #a8ed2f;
+  --ifm-color-info: #007bff; /* A nice blue for info buttons */
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
@@ -63,12 +64,29 @@ html[data-theme='dark'] {
   background-color: var(--ifm-color-primary-light);
 }
 
+.button--info {
+  background-color: var(--ifm-color-info);
+  color: white;
+}
+
+.button--info:hover {
+  background-color: #0069d9;
+}
+
+
 /* Example of making cards look premium dark */
 .card {
   background-color: var(--ifm-background-surface-color);
   border: 1px solid var(--ifm-color-emphasis-700);
   box-shadow: none;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
 .card__header {
   color: var(--ifm-heading-color);
 }
@@ -89,3 +107,9 @@ html[data-theme='dark'] .token.punctuation {
 }
 
 /* Further customization would involve more specific Docusaurus components */
+.heroBanner {
+  background-image: url('/img/robotics-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

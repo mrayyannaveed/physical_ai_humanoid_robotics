@@ -4,184 +4,196 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '36a'),
+    component: ComponentCreator('/__docusaurus/debug', '5ff'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', 'e56'),
+    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', 'f47'),
+    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'c7d'),
+    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '468'),
+    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '2fe'),
+    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '82f'),
+    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
     exact: true
   },
   {
     path: '/auth',
-    component: ComponentCreator('/auth', 'bcb'),
+    component: ComponentCreator('/auth', '4fe'),
     exact: true
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '721'),
+    component: ComponentCreator('/blog', '4e4'),
     exact: true
   },
   {
     path: '/blog/archive',
-    component: ComponentCreator('/blog/archive', '691'),
+    component: ComponentCreator('/blog/archive', '182'),
     exact: true
   },
   {
     path: '/blog/tags',
-    component: ComponentCreator('/blog/tags', '40a'),
+    component: ComponentCreator('/blog/tags', '287'),
     exact: true
   },
   {
     path: '/blog/tags/ai',
-    component: ComponentCreator('/blog/tags/ai', '7e7'),
+    component: ComponentCreator('/blog/tags/ai', '9b8'),
     exact: true
   },
   {
     path: '/blog/tags/introduction',
-    component: ComponentCreator('/blog/tags/introduction', 'b6f'),
+    component: ComponentCreator('/blog/tags/introduction', '662'),
     exact: true
   },
   {
     path: '/blog/tags/robotics',
-    component: ComponentCreator('/blog/tags/robotics', '1dd'),
+    component: ComponentCreator('/blog/tags/robotics', '49b'),
     exact: true
   },
   {
     path: '/blog/welcome',
-    component: ComponentCreator('/blog/welcome', '3a7'),
+    component: ComponentCreator('/blog/welcome', 'f85'),
     exact: true
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '42c'),
+    component: ComponentCreator('/docs', 'eb5'),
     routes: [
       {
-        path: '/docs/',
-        component: ComponentCreator('/docs/', 'a8c'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/chapter-1/core-concepts',
-        component: ComponentCreator('/docs/chapter-1/core-concepts', '0c2'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/chapter-1/history-and-evolution',
-        component: ComponentCreator('/docs/chapter-1/history-and-evolution', 'c90'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/chapter-1/introduction',
-        component: ComponentCreator('/docs/chapter-1/introduction', '9e0'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/chapter-2/actuators-and-sensors',
-        component: ComponentCreator('/docs/chapter-2/actuators-and-sensors', '52d'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/chapter-2/kinematics-and-dynamics',
-        component: ComponentCreator('/docs/chapter-2/kinematics-and-dynamics', 'd84'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/chapter-2/mechanical-design-and-materials',
-        component: ComponentCreator('/docs/chapter-2/mechanical-design-and-materials', 'd30'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/chapter-3/computer-vision-for-robotics',
-        component: ComponentCreator('/docs/chapter-3/computer-vision-for-robotics', 'd60'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/chapter-3/semantic-world-modeling',
-        component: ComponentCreator('/docs/chapter-3/semantic-world-modeling', 'ec1'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/chapter-3/sensor-fusion',
-        component: ComponentCreator('/docs/chapter-3/sensor-fusion', '58f'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/chapter-4/advanced-control-systems',
-        component: ComponentCreator('/docs/chapter-4/advanced-control-systems', 'b38'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/chapter-4/motion-planning-algorithms',
-        component: ComponentCreator('/docs/chapter-4/motion-planning-algorithms', '812'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/chapter-4/reinforcement-learning-and-sim-to-real',
-        component: ComponentCreator('/docs/chapter-4/reinforcement-learning-and-sim-to-real', '92e'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/chapter-5/system-integration-and-ros',
-        component: ComponentCreator('/docs/chapter-5/system-integration-and-ros', 'd23'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/chapter-5/testing-and-validation',
-        component: ComponentCreator('/docs/chapter-5/testing-and-validation', 'b13'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/chapter-5/the-future-of-humanoid-robotics',
-        component: ComponentCreator('/docs/chapter-5/the-future-of-humanoid-robotics', '8a6'),
-        exact: true,
-        sidebar: "tutorialSidebar"
+        path: '/docs',
+        component: ComponentCreator('/docs', '264'),
+        routes: [
+          {
+            path: '/docs',
+            component: ComponentCreator('/docs', '33a'),
+            routes: [
+              {
+                path: '/docs/',
+                component: ComponentCreator('/docs/', '4a8'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/chapter-1/core-concepts',
+                component: ComponentCreator('/docs/chapter-1/core-concepts', 'b8e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/chapter-1/history-and-evolution',
+                component: ComponentCreator('/docs/chapter-1/history-and-evolution', '844'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/chapter-1/introduction',
+                component: ComponentCreator('/docs/chapter-1/introduction', '4a0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/chapter-2/actuators-and-sensors',
+                component: ComponentCreator('/docs/chapter-2/actuators-and-sensors', '1cb'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/chapter-2/kinematics-and-dynamics',
+                component: ComponentCreator('/docs/chapter-2/kinematics-and-dynamics', '771'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/chapter-2/mechanical-design-and-materials',
+                component: ComponentCreator('/docs/chapter-2/mechanical-design-and-materials', '349'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/chapter-3/computer-vision-for-robotics',
+                component: ComponentCreator('/docs/chapter-3/computer-vision-for-robotics', 'a88'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/chapter-3/semantic-world-modeling',
+                component: ComponentCreator('/docs/chapter-3/semantic-world-modeling', 'bc0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/chapter-3/sensor-fusion',
+                component: ComponentCreator('/docs/chapter-3/sensor-fusion', '1e0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/chapter-4/advanced-control-systems',
+                component: ComponentCreator('/docs/chapter-4/advanced-control-systems', '44b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/chapter-4/motion-planning-algorithms',
+                component: ComponentCreator('/docs/chapter-4/motion-planning-algorithms', 'a16'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/chapter-4/reinforcement-learning-and-sim-to-real',
+                component: ComponentCreator('/docs/chapter-4/reinforcement-learning-and-sim-to-real', 'c53'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/chapter-5/system-integration-and-ros',
+                component: ComponentCreator('/docs/chapter-5/system-integration-and-ros', '4d4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/chapter-5/testing-and-validation',
+                component: ComponentCreator('/docs/chapter-5/testing-and-validation', 'aca'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/chapter-5/the-future-of-humanoid-robotics',
+                component: ComponentCreator('/docs/chapter-5/the-future-of-humanoid-robotics', '84d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
   {
     path: '/',
-    component: ComponentCreator('/', '08c'),
+    component: ComponentCreator('/', '2e1'),
     exact: true
   },
   {

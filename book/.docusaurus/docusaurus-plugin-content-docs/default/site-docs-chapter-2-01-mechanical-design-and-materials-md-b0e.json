@@ -1,5 +1,4 @@
 {
-  "unversionedId": "chapter-2/mechanical-design-and-materials",
   "id": "chapter-2/mechanical-design-and-materials",
   "title": "Mechanical Design and Materials",
   "description": "The mechanical design of a humanoid robot is a study in trade-offs. The structure must be strong enough to withstand dynamic forces, yet lightweight enough for efficient locomotion. It must be complex enough to house a vast network of actuators, sensors, and electronics, yet simple enough to be manufactured and maintained at a reasonable cost.",
@@ -8,6 +7,7 @@
   "slug": "/chapter-2/mechanical-design-and-materials",
   "permalink": "/docs/chapter-2/mechanical-design-and-materials",
   "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/your-org/physical-ai-book/tree/main/docs/chapter-2/01-mechanical-design-and-materials.md",
   "tags": [],
   "version": "current",

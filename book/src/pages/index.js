@@ -4,56 +4,88 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
-import HomepageFeatures from '../components/HomepageFeatures';
-import { useI18n } from '../utils/i18n'; // Import useI18n hook
+
+const modules = [
+  {
+    title: 'Chapter 1: Introduction to Humanoid Robotics',
+    description: 'History, evolution, and core concepts of humanoid robotics.',
+    link: '/docs/chapter-1/introduction',
+  },
+  {
+    title: 'Chapter 2: Mechanical Design and Materials',
+    description: 'Kinematics, dynamics, actuators, and sensors.',
+    link: '/docs/chapter-2/mechanical-design-and-materials',
+  },
+  {
+    title: 'Chapter 3: Perception and World Modeling',
+    description: 'Sensor fusion, computer vision, and semantic world modeling.',
+    link: '/docs/chapter-3/sensor-fusion',
+  },
+  {
+    title: 'Chapter 4: Motion Planning and Control',
+    description: 'Advanced algorithms for motion planning and control.',
+    link: '/docs/chapter-4/motion-planning-algorithms',
+  },
+    {
+    title: 'Chapter 5: System Integration and Future of Humanoid Robotics',
+    description: 'System Integration, ROS, and the future of humanoid robotics.',
+    link: '/docs/chapter-5/system-integration-and-ros',
+  },
+];
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
-  const { t } = useI18n(); // Use the i18n hook
-
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className={clsx('hero hero--primary', styles.heroBanner, 'hero-fade-in')}>
       <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{t('welcome')}</p> {/* Use translated text */}
+        <h1 className="hero__title">Physical Ai And Humanoid Robotics</h1>
+        <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            {t('docs')} - 5min ⏱️
+            to="/docs">
+            Start Learning
           </Link>
+          <Link
+            className="button button--info button--lg"
+            to="/docs">
+            Assessment
+          </Link>
+          <a
+            className="button button--github button--lg"
+            href="https://github.com/mrayyannaveed"
+            target="_blank"
+            rel="noopener noreferrer">
+            <span className="github-icon"></span> Github
+          </a>
         </div>
       </div>
     </header>
   );
 }
 
-// Placeholder for HomepageFeatures - create this component if it doesn't exist
-// book/src/components/HomepageFeatures.js
-function HomepageFeaturesPlaceholder() {
-  const { t } = useI18n();
+function ModulesSection() {
   return (
-    <section className={styles.features}>
+    <section className={clsx('modules-section', 'modules-fade-in')}>
       <div className="container">
+        <h2 className="modules-title">Course Outline</h2>
         <div className="row">
-          {[
-            {
-              title: 'Easy to Use',
-              description: 'Docusaurus was designed from the ground up to be easily installed and used to get your website up and running quickly.',
-            },
-            {
-              title: 'Focus on What Matters',
-              description: 'Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go ahead and move your docs into the `docs` directory.',
-            },
-            {
-              title: 'Powered by React',
-              description: 'Extend or customize your project layout by reusing React. Docusaurus can be extended while reusing the same header and footer.',
-            },
-          ].map((props, idx) => (
-            <div key={idx} className={clsx('col col--4')}>
-              <div className="text--center padding-horiz--md">
-                <h3>{t(props.title)}</h3> {/* Translate feature titles */}
-                <p>{t(props.description)}</p> {/* Translate feature descriptions */}
+          {modules.map((module, idx) => (
+            <div className={clsx('col col--4', styles.module)} key={idx}>
+              <div className="card">
+                <div className="card__header">
+                  <h3>{module.title}</h3>
+                </div>
+                <div className="card__body">
+                  <p>{module.description}</p>
+                </div>
+                <div className="card__footer">
+                  <Link
+                    className="button button--primary button--block"
+                    to={module.link}>
+                    Explore
+                  </Link>
+                </div>
               </div>
             </div>
           ))}
@@ -68,11 +100,11 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`Welcome to ${siteConfig.title}`}
+      description="Learn about Physical AI and Humanoid Robotics, from core concepts to advanced applications.">
       <HomepageHeader />
       <main>
-        <HomepageFeaturesPlaceholder /> {/* Using the placeholder here */}
+        <ModulesSection />
       </main>
     </Layout>
   );
