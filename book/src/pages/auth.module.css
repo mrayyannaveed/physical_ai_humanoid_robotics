@@ -1,0 +1,166 @@
+.authContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background-color: var(--ifm-background-color);
+  padding: 1rem;
+}
+
+.authCard {
+  width: 100%;
+  max-width: 420px;
+  padding: 2.5rem;
+  background-color: var(--ifm-background-surface-color);
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  border: 1px solid var(--ifm-color-gray-200);
+}
+
+html[data-theme='dark'] .authCard {
+  border-color: var(--ifm-color-emphasis-800);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  color: var(--ifm-heading-color);
+}
+
+.subtitle {
+  font-size: 1rem;
+  text-align: center;
+  color: var(--ifm-color-emphasis-600);
+  margin-bottom: 2rem;
+}
+
+.inputGroup {
+  margin-bottom: 1.25rem;
+}
+
+.inputGroup label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.inputGroup input,
+.inputGroup select,
+.inputGroup textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--ifm-color-gray-400);
+  border-radius: 8px;
+  font-size: 0.95rem;
+  background-color: var(--ifm-background-color);
+  color: var(--ifm-text-color);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.inputGroup input:focus,
+.inputGroup select:focus,
+.inputGroup textarea:focus {
+  outline: none;
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 0 0 3px rgba(118, 185, 0, 0.2);
+}
+
+.authButton {
+  margin-top: 1rem;
+  padding: 0.8rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.toggleText {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.toggleLink {
+  color: var(--ifm-color-primary);
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  transition: color 0.2s;
+}
+
+.toggleLink:hover {
+  color: var(--ifm-color-primary-dark);
+  text-decoration: underline;
+}
+
+/* Social Login Styles */
+.socialButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.socialButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0.75rem;
+  background-color: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-color-gray-400);
+  border-radius: 8px;
+  font-weight: 600;
+  color: var(--ifm-text-color);
+  cursor: pointer;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+.socialButton:hover {
+  background-color: var(--ifm-color-emphasis-100);
+  border-color: var(--ifm-color-emphasis-500);
+}
+
+html[data-theme='dark'] .socialButton:hover {
+  background-color: var(--ifm-color-emphasis-800);
+}
+
+.socialIcon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 1.5rem 0;
+  color: var(--ifm-color-emphasis-500);
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.divider::before,
+.divider::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid var(--ifm-color-gray-200);
+}
+
+html[data-theme='dark'] .divider::before,
+html[data-theme='dark'] .divider::after {
+  border-bottom: 1px solid var(--ifm-color-emphasis-700);
+}
+
+.divider:not(:empty)::before {
+  margin-right: 1em;
+}
+
+.divider:not(:empty)::after {
+  margin-left: 1em;
+}

@@ -36,24 +36,24 @@ const modules = [
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner, 'hero-fade-in')}>
+    <header className={clsx('hero hero--primary', 'heroBanner', 'hero-fade-in')}>
       <div className="container">
         <h1 className="hero__title">Physical Ai And Humanoid Robotics</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
+        <div className={clsx(styles.buttons, 'hero__buttons')}>
           <Link
             className="button button--secondary button--lg cursor-pointer"
-            href="/docs">
-            Start Learning
+            href="/docs/chapter-1/introduction">
+            Get Started
           </Link>
           <Link
             className="button button--info button--lg cursor-pointer"
-            href="/docs">
+            href="/assessment">
             Assessment
           </Link>
           <Link
             className="button button--github button--lg cursor-pointer"
-            href="https://github.com/mrayyannaveed"
+            href="https://github.com/mrayyannaveed/physical_ai_native_book"
             target="_blank"
             rel="noopener noreferrer">
             <span className="github-icon"></span> Github

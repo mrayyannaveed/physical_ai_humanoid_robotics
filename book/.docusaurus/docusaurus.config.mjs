@@ -60,7 +60,17 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/your-org/physical-ai-book",
+          "to": "/auth?mode=signup",
+          "label": "Sign Up",
+          "position": "right"
+        },
+        {
+          "to": "/auth?mode=login",
+          "label": "Login",
+          "position": "right"
+        },
+        {
+          "href": "https://github.com/mrayyannaveed/physical_ai_native_book",
           "label": "GitHub",
           "position": "right"
         }

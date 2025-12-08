@@ -1,4 +1,4 @@
-# Gemini CLI Rules
+﻿# Gemini CLI Rules
 
 This file is generated during init for the selected agent.
 
@@ -222,6 +222,8 @@ Auto-generated from all feature plans. Last updated: 2025-12-07
 - C++20, Python 3.10, JavaScript/TypeScript (React for frontend) + ROS 2 Humble, NVIDIA Isaac Sim, PyTorch, NVIDIA PhysX, FastAPI, Uvicorn, SQLAlchemy (or similar ORM), React, React Router, Redux (or Zustand/Context API), Styled Components (or Tailwind CSS/Emotion) (1-humanoid-specs)
 - Filesystem for logs and datasets (robotics), PostgreSQL (or SQLite for development) for user data and preferences (frontend) (1-humanoid-specs)
 - C++20, Python 3.10 + ROS 2 Humble, NVIDIA Isaac Sim, PyTorch, NVIDIA PhysX (1-humanoid-specs)
+- JavaScript/TypeScript (React), Docusaurus + React, Docusaurus, Better Auth (frontend integration), existing frontend logic (002-auth-homepage-ui)
+- N/A (Frontend UI tasks, user data handled by existing backend) (002-auth-homepage-ui)
 
 ## Frontend
 - React, Docusaurus
@@ -268,10 +270,9 @@ C++20, Python 3.10: Follow standard conventions
 - Improved dark mode
 
 ## Recent Changes
+- 002-auth-homepage-ui: Added JavaScript/TypeScript (React), Docusaurus + React, Docusaurus, Better Auth (frontend integration), existing frontend logic
+- 002-auth-homepage-ui: Added JavaScript/TypeScript (React), Docusaurus + React, Docusaurus, Better Auth (frontend integration), existing frontend logic
 - 1-humanoid-specs: Added C++20, Python 3.10, JavaScript/TypeScript (React for frontend) + ROS 2 Humble, NVIDIA Isaac Sim, PyTorch, NVIDIA PhysX, FastAPI, Uvicorn, SQLAlchemy (or similar ORM), React, React Router, Redux (or Zustand/Context API), Styled Components (or Tailwind CSS/Emotion)
-- 1-humanoid-specs: Added Python 3.10+ (FastAPI), JavaScript/TypeScript (React) + FastAPI, Uvicorn, SQLAlchemy (or similar ORM) for backend; React, React Router, Redux (or Zustand/Context API), Styled Components (or Tailwind CSS/Emotion) for frontend.
-- 1-humanoid-specs: Added C++20, Python 3.10 + ROS 2 Humble, NVIDIA Isaac Sim, PyTorch, NVIDIA PhysX
-- UI/UX Modernization:
   - Revamped the CSS to introduce a modern, professional look and feel.
   - The hero banner now has a gradient and a fade-in animation.
   - Buttons have been restyled.
