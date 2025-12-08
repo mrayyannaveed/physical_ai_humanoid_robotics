@@ -14,6 +14,20 @@
   --ifm-color-info: #00bfff; /* Deep Sky Blue for info buttons */
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  /* Custom UI variables */
+  --ifm-background-color: #f5f7f9;
+  --ifm-background-surface-color: #ffffff;
+  --ifm-hero-text-color: #333333;
+  --ifm-color-gray-200: #e0e0e0;
+  --ifm-color-gray-400: #bdbdbd;
+  --ifm-color-gray-800: #424242;
+  --ifm-color-success-lightest: #e6ffed;
+  --ifm-color-success-dark: #1f7a3f;
+  --ifm-color-success-light: #81c784;
+  --ifm-color-danger-lightest: #ffe6e6;
+  --ifm-color-danger-dark: #cc0000;
+  --ifm-color-danger-light: #ef9a9a;
 }
 
 /* For users with a preference for dark mode or when dark mode is explicitly enabled */
@@ -46,23 +60,22 @@ html[data-theme='dark'] {
 
   --ifm-navbar-background-color: #161b22;
   --ifm-footer-background-color: #161b22;
-
+  --ifm-hero-text-color: #f0f6fc; /* Ensure hero text is light in dark mode */
   --docusaurus-highlighted-code-line-bg: rgba(118, 185, 0, 0.2);
 }
 
+/* --- Hero Banner Section --- */
 .heroBanner {
   position: relative;
-  background-image: linear-gradient(to bottom, rgba(13, 17, 23, 0.8), rgba(13, 17, 23, 1)), url('/img/robotics-bg.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  overflow: hidden;
+  padding: 8rem 0; /* More vertical padding */
   text-align: center;
-  padding: 4rem 0;
-  color: white;
-}
-
-.hero-fade-in {
-  animation: hero-fade-in 1.5s ease-in-out;
+  color: white; /* Default text color for hero */
+  /* Gradient background with image overlay */
+  background: linear-gradient(135deg, var(--ifm-color-primary-darkest) 0%, rgba(13, 17, 23, 0.9) 100%),
+              url('/img/robotics-bg.png') no-repeat center center;
+  background-size: cover;
+  animation: hero-fade-in 1.5s ease-out forwards; /* Fade-in applied directly */
 }
 
 @keyframes hero-fade-in {
@@ -71,53 +84,133 @@ html[data-theme='dark'] {
 }
 
 .hero__title {
-  font-size: 3.5rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
+  font-size: 4rem; /* Larger title */
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(45deg, #a8ed2f, #76b900); /* Gradient for title */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .hero__subtitle {
-  font-size: 1.5rem;
-  font-weight: 300;
-  margin-bottom: 2rem;
+  font-size: 1.8rem; /* Larger subtitle */
+  font-weight: 400;
+  margin-bottom: 3rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.9);
 }
 
-.button--github {
-  background-color: #333;
+.hero__buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem; /* Space between buttons */
+  flex-wrap: wrap; /* Wrap buttons on smaller screens */
+}
+
+/* --- General Button Styling --- */
+.button {
+  --ifm-button-padding-horizontal: 1.8rem;
+  --ifm-button-padding-vertical: 0.9rem;
+  font-weight: 600;
+  border-radius: 50px; /* Pill shape for all buttons */
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.button--secondary {
+  background-color: var(--ifm-color-primary);
   color: white;
   border: none;
 }
 
+.button--secondary:hover {
+  background-color: var(--ifm-color-primary-dark);
+  color: white;
+}
+
+.button--info {
+  background-color: var(--ifm-color-info);
+  color: white;
+  border: none;
+}
+
+.button--info:hover {
+  background-color: #0099cc;
+  color: white;
+}
+
+.button--github {
+  background-color: #24292e; /* GitHub brand color */
+  color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .button--github:hover {
-  background-color: #444;
+  background-color: #33383d;
+  color: white;
 }
 
 .github-icon {
   display: inline-block;
   width: 24px;
   height: 24px;
-  background-image: url('/img/github.svg');
+  background-image: url('/img/github.svg'); /* Already exists */
   background-size: contain;
   background-repeat: no-repeat;
   margin-right: 8px;
-  vertical-align: middle;
+  filter: brightness(0) invert(1); /* Make SVG white */
+  transition: filter 0.3s ease;
 }
 
+html[data-theme='dark'] .github-icon {
+  filter: brightness(1) invert(0); /* Keep default color or adjust if needed for dark theme */
+}
+
+
+/* --- Modules Section --- */
 .modules-section {
-  padding: 4rem 0;
-  background-color: var(--ifm-background-color);
+  padding: 6rem 0; /* More vertical padding */
+  background: var(--ifm-background-color);
 }
 
 .modules-title {
+  font-size: 3rem; /* Larger title */
+  font-weight: 800;
+  margin-bottom: 4rem;
   text-align: center;
-  font-size: 2.5rem;
-  font-weight: 700;
-  margin-bottom: 3rem;
   color: var(--ifm-heading-color);
+  position: relative;
+}
+
+.modules-title::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -15px;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 5px;
+  background-color: var(--ifm-color-primary);
+  border-radius: 5px;
 }
 
 .modules-fade-in {
-  animation: modules-fade-in 1.5s ease-in-out;
+  animation: modules-fade-in 1.5s ease-out forwards;
 }
 
 @keyframes modules-fade-in {
@@ -127,31 +220,161 @@ html[data-theme='dark'] {
 
 .card {
   background-color: var(--ifm-background-surface-color);
-  border: 1px solid #30363d;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border: 1px solid var(--ifm-color-gray-200);
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  height: 100%; /* Ensure cards are same height */
+  display: flex;
+  flex-direction: column;
 }
 
 .card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+  border-color: var(--ifm-color-primary); /* Highlight border on hover */
+}
+
+html[data-theme='dark'] .card {
+  border: 1px solid var(--ifm-color-emphasis-800);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  background-color: var(--ifm-background-surface-color);
+}
+
+html[data-theme='dark'] .card:hover {
+  border-color: var(--ifm-color-primary);
+}
+
+.card__header {
+  padding: 1.5rem;
+  border-bottom: 1px solid var(--ifm-color-gray-200);
+  background-color: rgba(var(--ifm-color-primary-rgb), 0.1); /* Light tint for header */
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+}
+
+html[data-theme='dark'] .card__header {
+  border-bottom: 1px solid var(--ifm-color-emphasis-700);
+  background-color: rgba(var(--ifm-color-primary-rgb), 0.15);
 }
 
 .card__header h3 {
-  font-size: 1.25rem;
-  font-weight: 600;
+  font-size: 1.35rem;
+  font-weight: 700;
   color: var(--ifm-heading-color);
+  margin-bottom: 0;
+}
+
+.card__body {
+  padding: 1.5rem;
+  flex-grow: 1; /* Allow body to take available space */
 }
 
 .card__body p {
+  font-size: 1rem;
+  line-height: 1.6;
   color: var(--ifm-text-color);
 }
 
-.button--secondary {
-  border-radius: 20px;
+.card__footer {
+  padding: 1.5rem;
+  border-top: 1px solid var(--ifm-color-gray-200);
+  text-align: center;
+  background-color: var(--ifm-background-surface-color);
+  border-bottom-left-radius: 11px;
+  border-bottom-right-radius: 11px;
 }
 
-.button--lg {
-  border-radius: 20px;
+html[data-theme='dark'] .card__footer {
+  border-top: 1px solid var(--ifm-color-emphasis-700);
+}
+
+.card__footer .button {
+  width: 100%;
+  border-radius: 8px; /* Slightly less rounded than main buttons */
+  box-shadow: none;
+}
+
+.card__footer .button--primary {
+  background-color: var(--ifm-color-primary);
+}
+
+.card__footer .button--primary:hover {
+  background-color: var(--ifm-color-primary-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 996px) { /* Tablet and below */
+  .heroBanner {
+    padding: 6rem 0;
+  }
+
+  .hero__title {
+    font-size: 3rem;
+  }
+
+  .hero__subtitle {
+    font-size: 1.3rem;
+  }
+
+  .hero__buttons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .modules-section {
+    padding: 4rem 0;
+  }
+
+  .modules-title {
+    font-size: 2.2rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .col--4 { /* Adjust card column width for responsiveness */
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 768px) { /* Mobile */
+  .heroBanner {
+    padding: 4rem 0;
+  }
+
+  .hero__title {
+    font-size: 2.5rem;
+  }
+
+  .hero__subtitle {
+    font-size: 1.1rem;
+  }
+
+  .hero__buttons .button {
+    width: 90%;
+  }
+
+  .modules-section {
+    padding: 3rem 0;
+  }
+
+  .modules-title {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+
+  .authCard {
+    padding: 1.5rem;
+  }
+
+  .title {
+    font-size: 1.75rem;
+  }
+
+  .subtitle {
+    font-size: 0.9rem;
+  }
 }
