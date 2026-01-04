@@ -1,178 +1,221 @@
 {
-  "/assessment-202": {
-    "__comp": "f2fc3a1d",
+  "/__docusaurus/debug-5ff": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/config-5ba": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/content-a2b": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     },
-    "config": "5e9f5e1a"
+    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
+  },
+  "/__docusaurus/debug/globalData-c3c": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/metadata-156": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/registry-88c": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/routes-000": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/assessment-202": {
+    "__comp": "__comp---site-src-pages-assessment-jsf-2-f-c8a",
+    "__context": {
+      "plugin": "plugin---assessmenta-74-124"
+    },
+    "config": "config---assessment-5-e-9-682"
   },
   "/auth-4fe": {
-    "__comp": "75501347",
+    "__comp": "__comp---site-src-pages-auth-js-755-117",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---assessmenta-74-124"
     },
-    "config": "5e9f5e1a"
+    "config": "config---assessment-5-e-9-682"
   },
   "/blog-4e4": {
-    "__comp": "a6aa9e1f",
+    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
-      "plugin": "36994c47"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "814f3328",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "8a454aca"
+        "content": "content---blog-8-a-4-e09"
       }
     ],
-    "__props": "c15d9823"
+    "__props": "__props---blogc-15-573"
   },
   "/blog/archive-182": {
-    "__comp": "9e4087bc",
+    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
     "__context": {
-      "plugin": "36994c47"
+      "plugin": "plugin---blog-369-22e"
     },
-    "__props": "f81c1134"
+    "__props": "__props---blog-archivef-81-229"
   },
   "/blog/tags-287": {
-    "__comp": "01a85c17",
+    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
     "__context": {
-      "plugin": "36994c47"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "814f3328",
-    "__props": "3a2db09e"
+    "sidebar": "sidebar---blog-814-8ac",
+    "__props": "__props---blog-tags-3-a-2-fa2"
   },
   "/blog/tags/ai-9b8": {
-    "__comp": "6875c492",
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "36994c47"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "814f3328",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "8a454aca"
+        "content": "content---blog-8-a-4-e09"
       }
     ],
-    "__props": "65a6d713"
+    "__props": "__props---blog-tags-ai-65-a-ec1"
   },
   "/blog/tags/introduction-662": {
-    "__comp": "6875c492",
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "36994c47"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "814f3328",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "8a454aca"
+        "content": "content---blog-8-a-4-e09"
       }
     ],
-    "__props": "65ea2434"
+    "__props": "__props---blog-tags-introduction-65-e-a98"
   },
   "/blog/tags/robotics-49b": {
-    "__comp": "6875c492",
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "36994c47"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "814f3328",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "8a454aca"
+        "content": "content---blog-8-a-4-e09"
       }
     ],
-    "__props": "7537a2fe"
+    "__props": "__props---blog-tags-robotics-753-22f"
   },
   "/blog/welcome-f85": {
-    "__comp": "ccc49370",
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "acecf23e"
+        "blogMetadata": "blogMetadata---blog-welcomeace-e47"
       },
-      "plugin": "36994c47"
+      "plugin": "plugin---blog-369-22e"
     },
-    "sidebar": "814f3328",
-    "content": "433553e5"
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-welcome-433-240"
   },
   "/docs-eb5": {
-    "__comp": "5e95c892",
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
-      "plugin": "aba21aa0"
+      "plugin": "plugin---docsaba-d7c"
     }
   },
   "/docs-264": {
-    "__comp": "a7bd4aaa",
-    "__props": "0058b4c6"
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---docs-005-788"
   },
   "/docs-33a": {
-    "__comp": "a94703ab"
+    "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/-4a8": {
-    "__comp": "17896441",
-    "content": "c377a04b"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-c-37-4d0"
   },
   "/docs/chapter-1/core-concepts-b8e": {
-    "__comp": "17896441",
-    "content": "d4c1dec3"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-chapter-1-core-conceptsd-4-c-751"
   },
   "/docs/chapter-1/history-and-evolution-844": {
-    "__comp": "17896441",
-    "content": "2fde1000"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-chapter-1-history-and-evolution-2-fd-4a5"
   },
   "/docs/chapter-1/introduction-4a0": {
-    "__comp": "17896441",
-    "content": "63634cbc"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-chapter-1-introduction-636-2b9"
   },
   "/docs/chapter-2/actuators-and-sensors-1cb": {
-    "__comp": "17896441",
-    "content": "b9ec5f42"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-chapter-2-actuators-and-sensorsb-9-e-961"
   },
   "/docs/chapter-2/kinematics-and-dynamics-771": {
-    "__comp": "17896441",
-    "content": "70abe758"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-chapter-2-kinematics-and-dynamics-70-a-020"
   },
   "/docs/chapter-2/mechanical-design-and-materials-349": {
-    "__comp": "17896441",
-    "content": "b0e32a06"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-chapter-2-mechanical-design-and-materialsb-0-e-762"
   },
   "/docs/chapter-3/computer-vision-for-robotics-a88": {
-    "__comp": "17896441",
-    "content": "709673e3"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-chapter-3-computer-vision-for-robotics-709-ce6"
   },
   "/docs/chapter-3/semantic-world-modeling-bc0": {
-    "__comp": "17896441",
-    "content": "c7790015"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-chapter-3-semantic-world-modelingc-77-8e9"
   },
   "/docs/chapter-3/sensor-fusion-1e0": {
-    "__comp": "17896441",
-    "content": "4d3c8cdc"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-chapter-3-sensor-fusion-4-d-3-8b1"
   },
   "/docs/chapter-4/advanced-control-systems-44b": {
-    "__comp": "17896441",
-    "content": "dc3b64eb"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-chapter-4-advanced-control-systemsdc-3-2ff"
   },
   "/docs/chapter-4/motion-planning-algorithms-a16": {
-    "__comp": "17896441",
-    "content": "2b319342"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-chapter-4-motion-planning-algorithms-2-b-3-b6e"
   },
   "/docs/chapter-4/reinforcement-learning-and-sim-to-real-c53": {
-    "__comp": "17896441",
-    "content": "a8a3a23e"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-chapter-4-reinforcement-learning-and-sim-to-reala-8-a-4fe"
   },
   "/docs/chapter-5/system-integration-and-ros-4d4": {
-    "__comp": "17896441",
-    "content": "31a16404"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-chapter-5-system-integration-and-ros-31-a-f51"
   },
   "/docs/chapter-5/testing-and-validation-aca": {
-    "__comp": "17896441",
-    "content": "820db8f9"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-chapter-5-testing-and-validation-820-39a"
   },
   "/docs/chapter-5/the-future-of-humanoid-robotics-84d": {
-    "__comp": "17896441",
-    "content": "d6249897"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-chapter-5-the-future-of-humanoid-roboticsd-62-499"
   },
   "/-2e1": {
-    "__comp": "c4f5d8e4",
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---assessmenta-74-124"
     },
-    "config": "5e9f5e1a"
+    "config": "config---assessment-5-e-9-682"
   }
 }

@@ -7,7 +7,7 @@ export default {
   "title": "Physical AI and Humanoid Robotics",
   "tagline": "An Engineer's Guide to Embodied Intelligence",
   "favicon": "img/favicon.ico",
-  "url": "https://your-docusaurus-test-site.com",
+  "url": "https://physical-ai-humanoid-robotics-seven.vercel.app",
   "baseUrl": "/",
   "organizationName": "your-org",
   "projectName": "physical-ai-book",
@@ -25,16 +25,16 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "F:\\Programs\\nocode_dev\\physical_ai_native_book\\book\\sidebars.js",
+          "sidebarPath": "F:\\Programs\\book\\physical_ai_humanoid_robotics\\book\\sidebars.js",
           "editUrl": "https://github.com/your-org/physical-ai-book/tree/main/"
         },
         "blog": {
           "showReadingTime": true,
-          "authorsMapPath": "F:\\Programs\\nocode_dev\\physical_ai_native_book\\book\\authors.yml",
+          "authorsMapPath": "F:\\Programs\\book\\physical_ai_humanoid_robotics\\book\\authors.yml",
           "editUrl": "https://github.com/your-org/physical-ai-book/tree/main/"
         },
         "theme": {
-          "customCss": "F:\\Programs\\nocode_dev\\physical_ai_native_book\\book\\src\\css\\custom.css"
+          "customCss": "F:\\Programs\\book\\physical_ai_humanoid_robotics\\book\\src\\css\\custom.css"
         }
       }
     ]
@@ -116,7 +116,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2025 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2026 My Project, Inc. Built with Docusaurus."
     },
     "prism": {
       "theme": {
