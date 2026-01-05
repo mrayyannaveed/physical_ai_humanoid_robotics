@@ -14,33 +14,40 @@ permissions:
 concurrency:
   group: "pages"
   cancel-in-progress: false
+
 jobs:
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      # 👇 Build steps
+
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 20.x
           cache: 'npm'
-      - name: Install dependencies
+
+      - name: Install dependencies (book)
         run: npm ci
-      - name: Build
+        working-directory: ./book
+
+      - name: Build site (book)
         run: npm run build
-      # 👆 Build steps
+        working-directory: ./book
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # 👇 Specify build output path
-          path: build
+          path: ./book/build
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
