@@ -39,18 +39,16 @@ app.add_middleware(
 # Request/Response models
 class ChatRequest(BaseModel):
     message: str
-    selected_text_context: Optional[str] = None
-    history: Optional[list] = []
+    selected_text: Optional[str] = None
 
 class ChatResponse(BaseModel):
     response: str
-    sources: Optional[list] = []
 
 class RAGChatbot:
     def __init__(self):
         self.collection_name = "book_content"
         self.embedding_model = "models/text-embedding-004"
-        self.gemini_model = genai.GenerativeModel('gemini-1.5-flash')
+        self.gemini_model = genai.GenerativeModel('gemini-flash-latest')
 
     def get_query_embedding(self, query: str) -> list:
         """Generate embedding for query using Google Gemini"""
@@ -61,7 +59,7 @@ class RAGChatbot:
         )
         return result['embedding']
 
-    def retrieve_context(self, query: str, limit: int = 5) -> list:
+    def retrieve_context(self, query: str, limit: int = 3) -> list:
         """Retrieve relevant context from Qdrant"""
         query_embedding = self.get_query_embedding(query)
 
@@ -85,14 +83,7 @@ class RAGChatbot:
     def generate_response_with_context(self, user_query: str, context: str) -> str:
         """Generate response using Gemini with provided context"""
         prompt = f"""
-        You are an expert assistant for a book about physical AI and humanoid robotics.
-        Answer the user's question based on the provided context.
-
-        Context: {context}
-
-        User's question: {user_query}
-
-        Provide a helpful and accurate answer based on the context. If the context doesn't contain relevant information, say so.
+        You are a helpful AI assistant for a robotics book. Answer using this context: {context}. Question: {user_query}.
         """
 
         response = self.gemini_model.generate_content(prompt)
@@ -101,14 +92,7 @@ class RAGChatbot:
     def generate_response_selected_text(self, user_query: str, selected_text: str) -> str:
         """Generate response using only the selected text"""
         prompt = f"""
-        You are an expert assistant for a book about physical AI and humanoid robotics.
-        Answer the user's question based ONLY on the following selected text:
-
-        Selected text: {selected_text}
-
-        User's question: {user_query}
-
-        Answer the question based SOLELY on the provided selected text. Do not use any external knowledge or make assumptions beyond what's in the selected text. If the selected text doesn't contain information to answer the question, say so.
+        You are a helpful AI assistant for a robotics book. Answer using this context: {selected_text}. Question: {user_query}.
         """
 
         response = self.gemini_model.generate_content(prompt)
@@ -124,49 +108,45 @@ def read_root():
 @app.post("/chat", response_model=ChatResponse)
 async def chat(request: ChatRequest):
     """
-    Main chat endpoint that handles both RAG and selected text modes
+    Main chat endpoint with the following flow:
+    1. Input: Accept JSON { "message": "user question", "selected_text": "optional string" }
+    2. Context Strategy:
+       - Case A (User Selected Text): If `selected_text` is not empty, use it as the ONLY context. Skip Qdrant search.
+       - Case B (General Question): If `selected_text` is empty:
+         - Generate embedding for the user's question using Gemini
+         - Search Qdrant collection `book_content` (Limit: 3 results)
+         - Concatenate result texts to form context
+    3. Generation:
+       - Construct a prompt with context and question
+       - Use Gemini to generate the response
+       - Return { "response": "..." }
     """
     try:
         logger.info(f"Received chat request: {request.message[:50]}...")
 
-        # If selected text context is provided, use only that context
-        if request.selected_text_context and request.selected_text_context.strip():
-            logger.info("Using selected text context mode")
+        # Context Strategy
+        if request.selected_text and request.selected_text.strip():
+            # Case A: Use selected text as ONLY context
+            context = request.selected_text
             response = chatbot.generate_response_selected_text(
                 request.message,
-                request.selected_text_context
+                context
             )
-            return ChatResponse(response=response, sources=[])
         else:
-            logger.info("Using standard RAG mode")
-            # Retrieve relevant context from the book
-            retrieved_contexts = chatbot.retrieve_context(request.message)
+            # Case B: General question - use Qdrant retrieval
+            retrieved_contexts = chatbot.retrieve_context(request.message, limit=3)
 
             if not retrieved_contexts:
                 response = "I couldn't find relevant information in the book to answer your question."
-                return ChatResponse(response=response, sources=[])
+            else:
+                # Concatenate result texts to form context
+                context = " ".join([ctx['text'] for ctx in retrieved_contexts])
+                response = chatbot.generate_response_with_context(
+                    request.message,
+                    context
+                )
 
-            # Combine the most relevant contexts
-            combined_context = "\n\n".join([ctx['text'] for ctx in retrieved_contexts[:3]])
-
-            # Generate response using the context
-            response = chatbot.generate_response_with_context(
-                request.message,
-                combined_context
-            )
-
-            # Extract source information
-            sources = [
-                {
-                    'text': ctx['text'][:200] + "..." if len(ctx['text']) > 200 else ctx['text'],
-                    'source': ctx['source'],
-                    'chapter': ctx['chapter'],
-                    'relevance_score': ctx['score']
-                }
-                for ctx in retrieved_contexts[:3]
-            ]
-
-            return ChatResponse(response=response, sources=sources)
+        return ChatResponse(response=response)
 
     except Exception as e:
         logger.error(f"Error processing chat request: {str(e)}")
